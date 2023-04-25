@@ -1,0 +1,172 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6222-5BF90FE79F079226EC687BA7C5719C37C1FF3FAC8334722207C12F361F9F71F4.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6222-5BF90FE79F079226EC687BA7C5719C37C1FF3FAC8334722207C12F361F9F71F4.apk 
+Soot started on Wed Apr 26 00:29:00 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 672
+[GatorHierarchy] [32mVERBOSE[0m [App: 47, Lib : 622, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 2, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682461742119
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682461745861
+[Instantiated app classes] [32mVERBOSE[0m total number: 42
+[WARNING] [32mVERBOSE[0m Callback method :reset in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setDisplayedChild in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.google.ads.GoogleAdView$AdWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.zhuoqiu.goodgoeso.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 230 methods; 230 nodes; 294 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+Result for benign-app-6222-5BF90FE79F079226EC687BA7C5719C37C1FF3FAC8334722207C12F361F9F71F4.apkcom.zhuoqiu.goodgoeso

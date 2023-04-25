@@ -1,0 +1,511 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6014-8B56C06B9FAB916A111192EA3C0CB9103E6EC46D3CB16EC06E8D6055EEB1DC60.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6014-8B56C06B9FAB916A111192EA3C0CB9103E6EC46D3CB16EC06E8D6055EEB1DC60.apk 
+Soot started on Thu Apr 20 17:42:56 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.agasdsdasd.android.agasdsdasdAgent is a phantom class!
+Warning: javax.script.CompiledScript is a phantom class!
+Warning: javax.script.ScriptContext is a phantom class!
+Warning: javax.script.ScriptException is a phantom class!
+Warning: javax.script.ScriptEngine is a phantom class!
+Warning: javax.script.AbstractScriptEngine is a phantom class!
+Warning: javax.script.Compilable is a phantom class!
+Warning: javax.script.Invocable is a phantom class!
+Warning: javax.script.Bindings is a phantom class!
+Warning: javax.script.ScriptEngineFactory is a phantom class!
+No main class given. Inferred 'com.naef.jnlua.console.LuaConsole' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.7 seconds.
+[Spark] Solution found in 0.7 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2346
+[GatorHierarchy] [32mVERBOSE[0m [App: 1138, Lib : 1195, Phantom: 13]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 15, Lib views: 23
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 3, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682005379903
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682005387788
+[Instantiated app classes] [32mVERBOSE[0m total number: 910
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.loopj.android.http.AsyncHttpResponseHandler added
+[WARNING] [32mVERBOSE[0m Callback method :getSectionForPosition in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getViewTypeCount in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getPositionForSection in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getSections in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :isEnabled in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemViewType in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :areAllItemsEnabled in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :isEmpty in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :describeContents in Class com.ansca.corona.CoronaData added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CameraActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.ansca.corona.CameraActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.ansca.corona.purchasing.GoogleStoreConnection$IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.ansca.corona.purchasing.GoogleStoreConnection$IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ansca.corona.notifications.GoogleCloudMessagingBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ansca.corona.SystemStartupBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.facebook.LoginActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.facebook.LoginActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.facebook.LoginActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.facebook.LoginActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.facebook.LoginActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.loopj.android.http.AsyncHttpResponseHandler added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ansca.corona.purchasing.GoogleStoreBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :getCookies in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :clearExpired in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :addCookie in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :clear in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.facebook.widget.ProfilePictureView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.facebook.widget.ProfilePictureView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.facebook.widget.ProfilePictureView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.facebook.widget.ProfilePictureView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.facebook.widget.ProfilePictureView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getIntent in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setRequestedOrientation in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.vending.licensing.ILicensingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.android.vending.licensing.ILicensingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ansca.corona.notifications.AlarmManagerBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.ansca.corona.CoronaService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ansca.corona.CoronaService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CoronaService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.ansca.corona.CoronaService added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openAssetFile in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ansca.corona.notifications.StatusBarBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.vending.licensing.ILicenseResultListener$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.android.vending.licensing.ILicenseResultListener$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.facebook.FacebookFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ansca.corona.facebook.FacebookFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.ansca.corona.purchasing.StoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.purchasing.StoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ansca.corona.purchasing.StoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ansca.corona.purchasing.StoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.ansca.corona.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.ansca.corona.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.ansca.corona.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.ansca.corona.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.ansca.corona.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :describeContents in Class com.ansca.corona.CoronaData added
+[WARNING] [32mVERBOSE[0m Callback method :getSectionForPosition in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getViewTypeCount in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getPositionForSection in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getSections in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :isEnabled in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemViewType in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :areAllItemsEnabled in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :isEmpty in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class com.facebook.widget.GraphObjectAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.facebook.widget.LoginButton added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.facebook.widget.LoginButton added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.facebook.widget.LoginButton added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 184 methods; 184 nodes; 223 edges.
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getFileStreamPath(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageCodePath()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.ansca.corona.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.ansca.corona.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.ansca.corona.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.ansca.corona.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.ansca.corona.opengl.GLSurfaceView
+Result for benign-app-6014-8B56C06B9FAB916A111192EA3C0CB9103E6EC46D3CB16EC06E8D6055EEB1DC60.apkcom.lumencode.goodp

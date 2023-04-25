@@ -1,0 +1,559 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6095-027AE41B3500F160837C3C403B84CDA596068372B649B2BC3240B32EAF57C428.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6095-027AE41B3500F160837C3C403B84CDA596068372B649B2BC3240B32EAF57C428.apk 
+Soot started on Sat Apr 22 19:33:13 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: com.badlogic.gdx.jnigen.AntScriptGenerator is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildConfig is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildTarget$TargetOs is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildTarget is a phantom class!
+Warning: com.badlogic.gdx.jnigen.NativeCodeGenerator is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.example.games.basegameutils.GameHelper is a phantom class!
+No main class given. Inferred 'com.badlogic.gdx.math.Intersector' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2150
+[GatorHierarchy] [32mVERBOSE[0m [App: 1288, Lib : 850, Phantom: 12]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 12, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682184796519
+second round from stmt: $u0 = $u1#1[$u2]
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u8 = $u23#82[$u9#76]
+second round from stmt: $u8 = $u23#82[$u9#76]
+second round from stmt: $u8 = $u23#82[$u9#76]
+second round from stmt: $u8 = $u23#82[$u9#76]
+second round from stmt: $u0 = $u1#2[$u2]
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682184807436
+[Instantiated app classes] [32mVERBOSE[0m total number: 863
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView$BaseConfigChooser added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.gringogames.trv.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gringogames.trv.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.gringogames.trv.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.gringogames.trv.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.badlogic.gdx.backends.android.surfaceview.DefaultGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onDreamingStarted in Class com.badlogic.gdx.backends.android.AndroidDaydream added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.badlogic.gdx.backends.android.AndroidDaydream added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.badlogic.gdx.backends.android.AndroidDaydream added
+[WARNING] [32mVERBOSE[0m Callback method :onDreamingStopped in Class com.badlogic.gdx.backends.android.AndroidDaydream added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.badlogic.gdx.backends.android.surfaceview.GLSurfaceViewCupcake$BaseConfigChooser added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.badlogic.gdx.backends.android.AndroidInput added
+[WARNING] [32mVERBOSE[0m Callback method :onKey in Class com.badlogic.gdx.backends.android.AndroidInput added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.gdx.backends.android.AndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateEngine in Class com.badlogic.gdx.backends.android.AndroidLiveWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.badlogic.gdx.backends.android.AndroidLiveWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.badlogic.gdx.backends.android.AndroidLiveWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :getRenderMode in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :requestRender in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :setRenderMode in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :getDebugFlags in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :queueEvent in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :setRenderer in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :setDebugFlags in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.badlogic.gdx.backends.android.AndroidInput added
+[WARNING] [32mVERBOSE[0m Callback method :onKey in Class com.badlogic.gdx.backends.android.AndroidInput added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotion in Class com.badlogic.gdx.backends.android.AndroidInputThreePlus added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW$BaseConfigChooser added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :glGetBufferParameteriv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetClipPlanex in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetMaterialfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glColor4ub in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glVertexPointer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameteriv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glDrawElements in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetLightfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexEnviv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetLightxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexEnviv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexEnviv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetFloatv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexEnviv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetPointerv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterf in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glBufferSubData in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetBooleanv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glWeightPointerOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexParameteri in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetFloatv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glIsTexture in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetBooleanv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexEnvxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexEnvxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetMaterialxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glIsBuffer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointSizePointerOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetMaterialxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glBindBuffer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glColorPointer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glDeleteBuffers in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterx in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetFixedv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glCurrentPaletteMatrixOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexCoordPointer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glMatrixIndexPointerOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetBufferParameteriv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGenBuffers in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glPointParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glWeightPointerOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glIsEnabled in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameteriv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glMatrixIndexPointerOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetClipPlanef in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetFixedv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glLoadPaletteFromModelViewMatrixOES in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glDeleteBuffers in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetClipPlanef in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetTexParameterfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGenBuffers in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetLightxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glNormalPointer in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetClipPlanex in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetLightfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexEnvi in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glTexParameterxv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glBufferData in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :glGetMaterialfv in Class com.badlogic.gdx.backends.android.surfaceview.GLWrapperBase added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 1341 methods; 1341 nodes; 2234 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer clear()> to <java.nio.ShortBuffer: java.nio.ShortBuffer put(short[],int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=119
+maxpossibleFlows=119
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=191
+30 taint flow paths FOUND from <java.io.File: java.lang.String getPath()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=124
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.io.File: java.io.File[] listFiles()> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuffer: java.lang.String toString()> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=119
+maxpossibleFlows=191
+30 taint flow paths FOUND from <java.io.File: java.lang.String getPath()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=119
+maxpossibleFlows=1
+maxpossibleFlows=122
+64 taint flow paths FOUND from <java.io.File: java.lang.String getPath()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer clear()> to <java.nio.ShortBuffer: java.nio.ShortBuffer put(short[],int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onKey in Class com.badlogic.gdx.backends.android.AndroidInput
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.badlogic.gdx.backends.android.AndroidInput
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceViewLW
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotion in Class com.badlogic.gdx.backends.android.AndroidInputThreePlus
+[WARNING] [32mVERBOSE[0m Callback method :getDebugFlags in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :getRenderMode in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :queueEvent in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :requestRender in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setDebugFlags in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setEGLConfigChooser in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setRenderMode in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :setRenderer in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.badlogic.gdx.backends.android.surfaceview.GLBaseSurfaceView
+Result for malicious-app-6095-027AE41B3500F160837C3C403B84CDA596068372B649B2BC3240B32EAF57C428.apkcom.gringogames.trv

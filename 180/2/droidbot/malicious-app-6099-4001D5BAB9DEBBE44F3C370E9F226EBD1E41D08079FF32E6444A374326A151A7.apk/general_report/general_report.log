@@ -1,0 +1,28 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6099-4001D5BAB9DEBBE44F3C370E9F226EBD1E41D08079FF32E6444A374326A151A7.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6099-4001D5BAB9DEBBE44F3C370E9F226EBD1E41D08079FF32E6444A374326A151A7.apk 
+Soot started on Sat Apr 22 17:14:49 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.agasdsdasd.android.agasdsdasdAgent is a phantom class!
+Warning: javax.script.CompiledScript is a phantom class!
+Warning: javax.script.ScriptContext is a phantom class!
+Warning: javax.script.ScriptException is a phantom class!
+Warning: javax.script.ScriptEngine is a phantom class!
+Warning: javax.script.AbstractScriptEngine is a phantom class!
+Warning: javax.script.Compilable is a phantom class!
+Warning: javax.script.Invocable is a phantom class!
+Warning: javax.script.Bindings is a phantom class!
+Warning: javax.script.ScriptEngineFactory is a phantom class!
+No main class given. Inferred 'com.naef.jnlua.console.LuaConsole' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.8 seconds.
+[Spark] Solution found in 0.8 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 461 methods; 461 nodes; 559 edges.
+feature-vector-key = malicious-app-6099-4001D5BAB9DEBBE44F3C370E9F226EBD1E41D08079FF32E6444A374326A151A7.apk
+Result for malicious-app-6099-4001D5BAB9DEBBE44F3C370E9F226EBD1E41D08079FF32E6444A374326A151A7.apkcom.lumencode.goodp

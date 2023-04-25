@@ -1,0 +1,4 @@
+1	SDK
+1	SDK
+6	3rdLib
+6	3rdLib

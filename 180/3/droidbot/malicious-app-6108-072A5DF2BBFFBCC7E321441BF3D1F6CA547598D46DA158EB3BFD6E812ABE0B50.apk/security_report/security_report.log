@@ -1,0 +1,57 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6108-072A5DF2BBFFBCC7E321441BF3D1F6CA547598D46DA158EB3BFD6E812ABE0B50.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6108-072A5DF2BBFFBCC7E321441BF3D1F6CA547598D46DA158EB3BFD6E812ABE0B50.apk 
+Soot started on Sun Apr 23 05:26:51 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.am is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.ai is a phantom class!
+Warning: com.google.ads.as is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 841
+[GatorHierarchy] [32mVERBOSE[0m [App: 174, Lib : 660, Phantom: 7]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 8
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682220414393
+second round from stmt: $u0#4 = $u0#2[$u1#3]
+second round from stmt: $u5#58 = $u5#56[$u14#57]
+second round from stmt: $u5#56 = $u5#55[$u1#13]
+second round from stmt: $u5#58 = $u5#56[$u14#57]
+second round from stmt: $u5#56 = $u5#55[$u1#13]
+second round from stmt: $u0#3 = $u0#1[$u1#2]
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682221188048
+[Instantiated app classes] [32mVERBOSE[0m total number: 137
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.huayigame.star.main added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class cn.huayigame.star.main added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.huayigame.star.main added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.huayigame.star.main added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.rabbit.gbd.c.h added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.rabbit.gbd.c.h added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.MoreGames.API.CCHomeAdsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.MoreGames.API.CCHomeAdsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.MoreGames.API.CCHomeAdsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.MoreGames.API.MoreGames added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.MoreGames.API.MoreGames added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.MoreGames.API.MoreGames added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.MoreGames.API.MoreGames added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.rabbit.gbd.application.CCAndroidApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.rabbit.gbd.application.CCAndroidApplication added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 24 methods; 24 nodes; 28 edges.
+Result for malicious-app-6108-072A5DF2BBFFBCC7E321441BF3D1F6CA547598D46DA158EB3BFD6E812ABE0B50.apkcn.huayigame.star

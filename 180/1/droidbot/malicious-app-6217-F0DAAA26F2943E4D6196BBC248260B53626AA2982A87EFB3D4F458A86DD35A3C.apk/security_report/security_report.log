@@ -1,0 +1,65 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6217-F0DAAA26F2943E4D6196BBC248260B53626AA2982A87EFB3D4F458A86DD35A3C.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6217-F0DAAA26F2943E4D6196BBC248260B53626AA2982A87EFB3D4F458A86DD35A3C.apk 
+Soot started on Tue Apr 25 17:34:13 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 592
+[GatorHierarchy] [32mVERBOSE[0m [App: 18, Lib : 571, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682436854091
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682436854516
+[Instantiated app classes] [32mVERBOSE[0m total number: 11
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 73 methods; 73 nodes; 57 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse
+Result for malicious-app-6217-F0DAAA26F2943E4D6196BBC248260B53626AA2982A87EFB3D4F458A86DD35A3C.apknet.clearance.turso

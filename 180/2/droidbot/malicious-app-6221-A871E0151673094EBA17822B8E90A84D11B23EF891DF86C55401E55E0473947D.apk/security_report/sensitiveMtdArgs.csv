@@ -1,0 +1,6 @@
+"<android.view.Window: void setFlags(int,int)>","1024","1024"
+"<android.view.Window: void setFlags(int,int)>","128","128"
+"<android.app.Activity: void setContentView(int)>","2130903041"
+"<android.util.Log: int e(java.lang.String,java.lang.String)>","MobclickAgent","missing appkey "
+"<java.io.OutputStream: void write(byte[])>","[B@422ebf9"
+"<android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>","4","KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=118167, downTime=118167, deviceId=-1, source=0x101 }"

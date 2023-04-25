@@ -1,0 +1,315 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6087-C5616B147FC273EAF29B407704C5D9475CB507015B06FD9CCB2120049FDBB567.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6087-C5616B147FC273EAF29B407704C5D9475CB507015B06FD9CCB2120049FDBB567.apk 
+Soot started on Sat Apr 22 14:29:58 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1752
+[GatorHierarchy] [32mVERBOSE[0m [App: 734, Lib : 1015, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 12, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 5, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682166600110
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682166611081
+[Instantiated app classes] [32mVERBOSE[0m total number: 546
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.gms.analytics.internal.c added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.analytics.tracking.android.CampaignTrackingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.axl.runsantarun.v1.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.analytics.tracking.android.CampaignTrackingService added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 465 methods; 465 nodes; 641 edges.
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=28
+28 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+1 taint flow paths FOUND from <java.lang.Throwable: java.lang.StackTraceElement[] getStackTrace()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=28
+28 taint flow paths FOUND from <java.util.TreeSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.HashSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=28
+28 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Dialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setPadding(int,int,int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Dialog: void setContentView(android.view.View)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+Result for benign-app-6087-C5616B147FC273EAF29B407704C5D9475CB507015B06FD9CCB2120049FDBB567.apkcom.zrtc.runsantarun.vwp

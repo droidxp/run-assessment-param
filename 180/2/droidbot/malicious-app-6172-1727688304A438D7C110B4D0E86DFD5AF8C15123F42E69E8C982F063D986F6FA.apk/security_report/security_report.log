@@ -1,0 +1,32 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk 
+Soot started on Mon Apr 24 18:15:45 CEST 2023
+Warning: exception while processing dex file '/home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk'
+Exception: org.jf.util.ExceptionWithContext: /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk is not an apk, dex, odex or oat file.
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Error reading /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk: java.util.zip.ZipException: error in opening zip file
+soot.CompilationDeathException
+	at soot.SourceLocator.getClassesUnder(SourceLocator.java:216)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1365)
+	at soot.Main.run(Main.java:243)
+	at soot.Main.main(Main.java:147)
+	at dua.Forensics.main(Forensics.java:102)
+	at reporters.rankReport.main(rankReport.java:67)
+
+
+Ouuups... something went wrong! Sorry about that.
+Follow these steps to fix the problem:
+1.) Are you sure you used the right command line?
+    Click here to double-check:
+    https://ssebuild.cased.de/nightly/soot/doc/soot_options.htm
+
+2.) Not sure whether it's a bug? Feel free to discuss
+    the issue on the Soot mailing list:
+    https://github.com/Sable/soot/wiki/Getting-help
+
+3.) Sure it's a bug? Click this link to report it.
+    https://github.com/Sable/soot/issues/new?title=soot.CompilationDeathException+when+...&body=Steps+to+reproduce%3A%0A1.%29+...%0A%0AFiles+used+to+reproduce%3A+%0A...%0A%0ASoot+version%3A+%3Cpre%3Etrunk%3C%2Fpre%3E%0A%0ACommand+line%3A%0A%3Cpre%3E-w+-cp+%2Fhome%2Fhandrick%2FDocuments%2FTU_Darmstadt%2Fbenchmark%2Flibs%2Fdroidfax.jar%3A%2Fhome%2Fhandrick%2FAndroid%2FSdk%2Fplatforms%2Fandroid-19%2Fandroid.jar+-p+cg+verbose%3Afalse%2Cimplicit-entry%3Atrue+-p+cg.spark+verbose%3Afalse%2Con-fly-cg%3Atrue%2Crta%3Afalse+-d+%2Fhome%2Fhandrick%2FDocuments%2FTU_Darmstadt%2Fbenchmark%2Ftrace%2F180%2F1%2Fdroidbot%2Fmalicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk.logcat+-process-dir+%2Fhome%2Fhandrick%2FDocuments%2FTU_Darmstadt%2Fbenchmark%2Fdata%2Finput%2Fmalicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk%3C%2Fpre%3E%0A%0AMax+Memory%3A%0A%3Cpre%3E4551MB%3C%2Fpre%3E%0A%0AStack+trace%3A%0A%3Cpre%3Esoot.CompilationDeathException%0A%09at+soot.SourceLocator.getClassesUnder%28SourceLocator.java%3A216%29%0A%09at+soot.Scene.loadNecessaryClasses%28Scene.java%3A1365%29%0A%09at+soot.Main.run%28Main.java%3A243%29%0A%09at+soot.Main.main%28Main.java%3A147%29%0A%09at+dua.Forensics.main%28Forensics.java%3A102%29%0A%09at+reporters.rankReport.main%28rankReport.java%3A67%29%0A%3C%2Fpre%3E
+    Please be as precise as possible when giving us
+    information on how to reproduce the problem. Thanks!
+Result for malicious-app-6172-1727688304A438D7C110B4D0E86DFD5AF8C15123F42E69E8C982F063D986F6FA.apk

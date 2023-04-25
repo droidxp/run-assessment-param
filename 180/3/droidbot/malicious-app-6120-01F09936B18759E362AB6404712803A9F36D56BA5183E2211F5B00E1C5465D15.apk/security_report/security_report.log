@@ -1,0 +1,46 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk 
+Soot started on Sun Apr 23 14:29:08 CEST 2023
+Warning: IO error while processing dex file '/home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk'
+Exception: java.io.FileNotFoundException: /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk (No such file or directory)
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+java.io.FileNotFoundException: /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at soot.jimple.infoflow.android.axml.ApkHandler.getInputStream(ApkHandler.java:99)
+	at soot.jimple.infoflow.android.manifest.ProcessManifest.<init>(ProcessManifest.java:85)
+	at soot.jimple.infoflow.android.manifest.ProcessManifest.<init>(ProcessManifest.java:70)
+	at dua.global.ProgramFlowGraph.<clinit>(ProgramFlowGraph.java:92)
+	at reporters.securityReport.init(securityReport.java:281)
+	at reporters.securityReport.run(securityReport.java:208)
+	at dua.Forensics.internalTransform(Forensics.java:138)
+	at soot.SceneTransformer.transform(SceneTransformer.java:39)
+	at soot.Transform.apply(Transform.java:90)
+	at soot.ScenePack.internalApply(ScenePack.java:40)
+	at soot.Pack.apply(Pack.java:121)
+	at soot.PackManager.runWholeProgramPacks(PackManager.java:567)
+	at soot.PackManager.runPacksNormally(PackManager.java:457)
+	at soot.PackManager.runPacks(PackManager.java:392)
+	at soot.Main.run(Main.java:271)
+	at soot.Main.main(Main.java:147)
+	at dua.Forensics.main(Forensics.java:102)
+	at reporters.rankReport.main(rankReport.java:67)
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 184
+[GatorHierarchy] [32mVERBOSE[0m [App: 0, Lib : 176, Phantom: 8]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 0, lib activities: 0
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 0
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 1
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+Result for malicious-app-6120-01F09936B18759E362AB6404712803A9F36D56BA5183E2211F5B00E1C5465D15.apk

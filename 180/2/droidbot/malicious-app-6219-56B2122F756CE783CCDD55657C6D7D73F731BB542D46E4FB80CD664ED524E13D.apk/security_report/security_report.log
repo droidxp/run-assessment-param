@@ -1,0 +1,86 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6219-56B2122F756CE783CCDD55657C6D7D73F731BB542D46E4FB80CD664ED524E13D.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6219-56B2122F756CE783CCDD55657C6D7D73F731BB542D46E4FB80CD664ED524E13D.apk 
+Soot started on Tue Apr 25 20:06:59 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 812
+[GatorHierarchy] [32mVERBOSE[0m [App: 63, Lib : 746, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682446019950
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682446020821
+[Instantiated app classes] [32mVERBOSE[0m total number: 65
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Nslp.NoteText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.NoteText added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.Ina.Nslp.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.MoreAppActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Nslp.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Nslp.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Nslp.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.Ina.Nslp.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Nslp.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.Ina.Nslp.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.Ina.Nslp.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+2 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 53 methods; 53 nodes; 53 edges.
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+Result for malicious-app-6219-56B2122F756CE783CCDD55657C6D7D73F731BB542D46E4FB80CD664ED524E13D.apkcom.Ina.Nslp

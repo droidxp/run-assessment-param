@@ -1,0 +1,139 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6098-0A6F7E89198DCA28A135F166531B70287E2B7E0A689319E084A02786C00B2E6E.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6098-0A6F7E89198DCA28A135F166531B70287E2B7E0A689319E084A02786C00B2E6E.apk 
+Soot started on Sat Apr 22 19:39:14 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 846
+[GatorHierarchy] [32mVERBOSE[0m [App: 88, Lib : 755, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682185154960
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682185156245
+[Instantiated app classes] [32mVERBOSE[0m total number: 97
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IInAppBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IInAppBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.ctugames.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ctugames.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ctugames.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ctugames.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ctugames.funnysk.NotificationReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.ctugames.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ctugames.funnysk.TiredBirds added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ctugames.funnysk.TiredBirds added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 386 methods; 386 nodes; 420 edges.
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.SharedPreferences getPreferences(int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Throwable: java.lang.String getMessage()> to <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=16
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Window: android.view.WindowManager$LayoutParams getAttributes()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=16
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+Result for malicious-app-6098-0A6F7E89198DCA28A135F166531B70287E2B7E0A689319E084A02786C00B2E6E.apkcom.ctugames.funnysk

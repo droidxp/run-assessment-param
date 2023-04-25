@@ -1,0 +1,25 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6163-02B3F35BE7B21E0A2C60EE923EC3A08FA01FA427B6A5BEE39F2A3995F659297E.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6163-02B3F35BE7B21E0A2C60EE923EC3A08FA01FA427B6A5BEE39F2A3995F659297E.apk 
+Soot started on Mon Apr 24 18:05:37 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.Ad is a phantom class!
+Warning: com.google.ads.AdListener is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdSize is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.InterstitialAd is a phantom class!
+No main class given. Inferred 'air.com.infofrontline.jmsn.GetVersionCode' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 61 methods; 61 nodes; 65 edges.
+feature-vector-key = malicious-app-6163-02B3F35BE7B21E0A2C60EE923EC3A08FA01FA427B6A5BEE39F2A3995F659297E.apk
+Result for malicious-app-6163-02B3F35BE7B21E0A2C60EE923EC3A08FA01FA427B6A5BEE39F2A3995F659297E.apkair.com.infofrontline.jmsn

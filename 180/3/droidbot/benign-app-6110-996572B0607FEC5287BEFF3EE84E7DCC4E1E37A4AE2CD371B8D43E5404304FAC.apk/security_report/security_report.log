@@ -1,0 +1,130 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6110-996572B0607FEC5287BEFF3EE84E7DCC4E1E37A4AE2CD371B8D43E5404304FAC.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6110-996572B0607FEC5287BEFF3EE84E7DCC4E1E37A4AE2CD371B8D43E5404304FAC.apk 
+Soot started on Sun Apr 23 05:55:08 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.cat.tools.test.CatView is a phantom class!
+Warning: com.cat.tools.test1.CatView is a phantom class!
+Warning: com.cat.tools.test2.CatView is a phantom class!
+Warning: com.cat.tools.test3.CatView is a phantom class!
+Warning: com.cat.tools.test.AdListener is a phantom class!
+Warning: com.cat.tools.test.Ad is a phantom class!
+Warning: com.cat.tools.test.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test1.AdListener is a phantom class!
+Warning: com.cat.tools.test1.Ad is a phantom class!
+Warning: com.cat.tools.test1.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test2.AdListener is a phantom class!
+Warning: com.cat.tools.test2.Ad is a phantom class!
+Warning: com.cat.tools.test2.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test3.AdListener is a phantom class!
+Warning: com.cat.tools.test3.Ad is a phantom class!
+Warning: com.cat.tools.test3.AdRequest$ErrorCode is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1125
+[GatorHierarchy] [32mVERBOSE[0m [App: 190, Lib : 916, Phantom: 19]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682222110369
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682222113538
+[Instantiated app classes] [32mVERBOSE[0m total number: 201
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgo.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgo.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgo.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgo.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgo.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgo.DoubleRowContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.DoubleRowContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgo.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgo.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.cat.pianocgo.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.cat.pianocgo.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgo.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgo.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgo.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgo.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgo.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.cat.pianocgo.FileManagerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.FileManagerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cat.pianocgo.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgo.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgo.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgo.PianoView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgo.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgo.Navigator added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgo.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.cat.pianocgo.DownloadService added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgo.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgo.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgo.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgo.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgo.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgo.DropArea
+Result for benign-app-6110-996572B0607FEC5287BEFF3EE84E7DCC4E1E37A4AE2CD371B8D43E5404304FAC.apkcom.cat.pianocgo

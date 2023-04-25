@@ -1,0 +1,112 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6000-4AE6C92AFC7AB971C3E4EA4C98FF2452E2036A2CAA692BAE1AB880DCC2A33432.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6000-4AE6C92AFC7AB971C3E4EA4C98FF2452E2036A2CAA692BAE1AB880DCC2A33432.apk 
+Soot started on Thu Apr 20 14:53:58 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1424
+[GatorHierarchy] [32mVERBOSE[0m [App: 570, Lib : 851, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 8
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1681995240614
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1681995248306
+[Instantiated app classes] [32mVERBOSE[0m total number: 439
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class org.kde.necessitas.mobile.QtMediaPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class org.kde.necessitas.mobile.QtMediaPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.analytics.tracking.android.CampaignTrackingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.kde.necessitas.mobile.QtSensors added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.kde.necessitas.mobile.QtSensors added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class org.kde.necessitas.origo.QtApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onUserInteraction in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowAttributesChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelView in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTrackballEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSearchRequested in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDescription in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextMenuClosed in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onChildTitleChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onUserLeaveHint in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateThumbnail in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onApplyThemeResource in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class org.kde.necessitas.origo.QtActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.tagmanager.InstallReferrerReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.tagmanager.PreviewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class org.kde.necessitas.mobile.QtBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.kde.necessitas.mobile.QtLocation added
+[WARNING] [32mVERBOSE[0m Callback method :onGpsStatusChanged in Class org.kde.necessitas.mobile.QtLocation added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.kde.necessitas.mobile.QtLocation added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.kde.necessitas.mobile.QtLocation added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.kde.necessitas.mobile.QtLocation added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.tagmanager.InstallReferrerService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class org.kde.necessitas.mobile.QtFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 4 methods; 4 nodes; 2 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onGpsStatusChanged in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.kde.necessitas.mobile.QtLocation
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class org.kde.necessitas.mobile.QtMediaPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class org.kde.necessitas.mobile.QtMediaPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.kde.necessitas.mobile.QtSensors
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.kde.necessitas.mobile.QtSensors
+Result for benign-app-6000-4AE6C92AFC7AB971C3E4EA4C98FF2452E2036A2CAA692BAE1AB880DCC2A33432.apkcom.droidnew.qiang.indt.circmzl

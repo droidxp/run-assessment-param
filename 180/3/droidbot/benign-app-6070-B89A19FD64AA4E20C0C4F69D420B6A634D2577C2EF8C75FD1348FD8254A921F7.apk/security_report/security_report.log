@@ -1,0 +1,103 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6070-B89A19FD64AA4E20C0C4F69D420B6A634D2577C2EF8C75FD1348FD8254A921F7.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6070-B89A19FD64AA4E20C0C4F69D420B6A634D2577C2EF8C75FD1348FD8254A921F7.apk 
+Soot started on Sat Apr 22 07:12:34 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 857
+[GatorHierarchy] [32mVERBOSE[0m [App: 99, Lib : 755, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 6, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682140356021
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682140358176
+[Instantiated app classes] [32mVERBOSE[0m total number: 133
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.android.libso.AndroidLoadLibActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.libso.AndroidLoadLibActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.c added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.c added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.unity3d.player.x added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotionEvent in Class com.unity3d.player.x added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 83 methods; 83 nodes; 84 edges.
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=3
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=3
+maxpossibleFlows=13
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: int getId()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=3
+maxpossibleFlows=13
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: int getId()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.c, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.c
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.c, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.c
+Result for benign-app-6070-B89A19FD64AA4E20C0C4F69D420B6A634D2577C2EF8C75FD1348FD8254A921F7.apkcom.NostaticSoftware.Ap

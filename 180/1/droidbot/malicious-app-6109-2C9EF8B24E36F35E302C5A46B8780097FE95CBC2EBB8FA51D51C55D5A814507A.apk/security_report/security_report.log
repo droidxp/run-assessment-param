@@ -1,0 +1,485 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6109-2C9EF8B24E36F35E302C5A46B8780097FE95CBC2EBB8FA51D51C55D5A814507A.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6109-2C9EF8B24E36F35E302C5A46B8780097FE95CBC2EBB8FA51D51C55D5A814507A.apk 
+Soot started on Sat Apr 22 23:42:10 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 811
+[GatorHierarchy] [32mVERBOSE[0m [App: 108, Lib : 700, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682199732162
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u5#125 = $u5#123[$u8#124]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u0#19 = $u0#17[$u1#18]
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682199744516
+[Instantiated app classes] [32mVERBOSE[0m total number: 114
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class net.chobin.android.pzqab.app.AppBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class net.chobin.android.pzqab.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class net.chobin.android.pzqab.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class net.chobin.android.a.f added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class net.chobin.android.a.f added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class net.chobin.android.a.i added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 654 methods; 654 nodes; 991 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.media.MediaPlayer: void setDataSource(android.content.Context,android.net.Uri)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: int getRequestedOrientation()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=728
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.media.MediaPlayer: void setDataSource(android.content.Context,android.net.Uri)>
+maxpossibleFlows=728
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.media.MediaPlayer: void setDataSource(android.content.Context,android.net.Uri)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=728
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=728
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.media.MediaPlayer: void setDataSource(android.content.Context,android.net.Uri)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: int getRequestedOrientation()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.chobin.android.pzqab.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class net.chobin.android.pzqab.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class net.chobin.android.pzqab.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class net.chobin.android.pzqab.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: void surfaceCreated(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class net.chobin.android.pzqab.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.pzqab.app.k, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class net.chobin.android.pzqab.app.k
+Result for malicious-app-6109-2C9EF8B24E36F35E302C5A46B8780097FE95CBC2EBB8FA51D51C55D5A814507A.apknet.chobin.android.pzqab

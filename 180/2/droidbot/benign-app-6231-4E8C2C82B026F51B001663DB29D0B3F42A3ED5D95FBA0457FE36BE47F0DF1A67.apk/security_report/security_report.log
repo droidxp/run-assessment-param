@@ -1,0 +1,115 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6231-4E8C2C82B026F51B001663DB29D0B3F42A3ED5D95FBA0457FE36BE47F0DF1A67.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6231-4E8C2C82B026F51B001663DB29D0B3F42A3ED5D95FBA0457FE36BE47F0DF1A67.apk 
+Soot started on Tue Apr 25 20:07:49 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 927
+[GatorHierarchy] [32mVERBOSE[0m [App: 153, Lib : 771, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 5, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682446070181
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682446072436
+[Instantiated app classes] [32mVERBOSE[0m total number: 163
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.d added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.d added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.player.a.c$a added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.unity3d.player.a.c$a added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :isPlaying in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getBufferPercentage in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :pause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canSeekBackward in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getDuration in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getCurrentPosition in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :start in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canPause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canSeekForward in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :seekTo in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.unity3d.player.u added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotionEvent in Class com.unity3d.player.u added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.player.a.d$a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.prime31.GoogleIABProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.prime31.GoogleIABProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IInAppBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IInAppBillingService$Stub added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 27 methods; 27 nodes; 25 edges.
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.d, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.d
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.d, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.d
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canPause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canSeekBackward in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canSeekForward in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getBufferPercentage in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getCurrentPosition in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getDuration in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :isPlaying in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :pause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :seekTo in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :start in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.VideoPlayer
+Result for benign-app-6231-4E8C2C82B026F51B001663DB29D0B3F42A3ED5D95FBA0457FE36BE47F0DF1A67.apkcom.noobyisland.Laso

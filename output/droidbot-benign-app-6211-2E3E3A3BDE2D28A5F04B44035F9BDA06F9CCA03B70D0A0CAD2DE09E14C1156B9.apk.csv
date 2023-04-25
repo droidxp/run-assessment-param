@@ -1,0 +1,6 @@
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"bin/Data/settings.xml"
+<org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)>;"1"
+<android.view.Window: void setFlags(int,int)>;"1024","1024"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.galapagossoft.trialgccso-frEFZHJZnP2WrxVeyVJWfQ==/base.apk"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.galapagossoft.trialgccso--XfzBJGh7GkN3zaCOCWa7Q==/base.apk"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.galapagossoft.trialgccso-YTD8CVEIOmaUS8B2C_pPjA==/base.apk"

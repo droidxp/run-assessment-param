@@ -1,0 +1,2 @@
+"<android.app.Activity: void setVolumeControlStream(int)>","3"
+"<android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>","Intent { act=com.android.vending.billing.InAppBillingService.BIND }","com.donutgames.dgkit.DGKitActivity@54a445d","1"

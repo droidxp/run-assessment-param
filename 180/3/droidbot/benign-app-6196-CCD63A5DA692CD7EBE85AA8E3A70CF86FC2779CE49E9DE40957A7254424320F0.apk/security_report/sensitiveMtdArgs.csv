@@ -1,0 +1,3 @@
+"<android.view.Window: void setFlags(int,int)>","128","128"
+"<android.view.View: void setFocusableInTouchMode(boolean)>","1"
+"<android.app.Activity: void setContentView(android.view.View)>","com.polarbit.fuse.Fuse$RenderSurface{4a8136c VFE...... ......I. 0,0-0,0}"

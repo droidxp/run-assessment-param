@@ -1,0 +1,50 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6188-59879155633B1D475452FEFED6879D0588BCF9B22A258BC9B7DCB8B344A2F961.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6188-59879155633B1D475452FEFED6879D0588BCF9B22A258BC9B7DCB8B344A2F961.apk 
+Soot started on Mon Apr 24 18:09:23 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 705
+[GatorHierarchy] [32mVERBOSE[0m [App: 48, Lib : 654, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 12
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682352564454
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682352565129
+[Instantiated app classes] [32mVERBOSE[0m total number: 57
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tankiy.ape.ApeWar added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 182 methods; 182 nodes; 181 edges.
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+Result for benign-app-6188-59879155633B1D475452FEFED6879D0588BCF9B22A258BC9B7DCB8B344A2F961.apkcom.tankiy.ape

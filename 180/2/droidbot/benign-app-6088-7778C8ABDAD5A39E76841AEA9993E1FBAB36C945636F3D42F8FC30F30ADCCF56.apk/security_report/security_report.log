@@ -1,0 +1,448 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6088-7778C8ABDAD5A39E76841AEA9993E1FBAB36C945636F3D42F8FC30F30ADCCF56.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6088-7778C8ABDAD5A39E76841AEA9993E1FBAB36C945636F3D42F8FC30F30ADCCF56.apk 
+Soot started on Sat Apr 22 17:04:56 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.Ad is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.InterstitialAd is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2016
+[GatorHierarchy] [32mVERBOSE[0m [App: 992, Lib : 1018, Phantom: 6]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 9, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682175899102
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682175965435
+[Instantiated app classes] [32mVERBOSE[0m total number: 683
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.android.vending.billing.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.tuesdayquest.engine.TuesdayLayoutGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tuesdayquest.asz.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.core.ui.PaymentDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tuesdayquest.asz.HungryCatApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.tuesdayquest.engine.TuesdayLayoutGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tuesdayquest.engine.ui.activity.TuesdayBaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 302 methods; 302 nodes; 377 edges.
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView
+Result for benign-app-6088-7778C8ABDAD5A39E76841AEA9993E1FBAB36C945636F3D42F8FC30F30ADCCF56.apkcom.tuesdayquest.asz

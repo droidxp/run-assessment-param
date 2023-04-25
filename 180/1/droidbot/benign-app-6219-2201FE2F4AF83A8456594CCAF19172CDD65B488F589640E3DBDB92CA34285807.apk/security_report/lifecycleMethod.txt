@@ -1,0 +1,5 @@
+ContentProvider	1	0	0	4	2	2
+Activity	24	5	12	1	1	1
+Service	0	0	0	5	2	2
+BroadcastReceiver	2	0	0	2	2	2
+Application	2	0	0	2	2	2

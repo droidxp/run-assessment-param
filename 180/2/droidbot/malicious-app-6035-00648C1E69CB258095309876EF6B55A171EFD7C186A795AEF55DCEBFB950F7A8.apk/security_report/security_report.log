@@ -1,0 +1,226 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6035-00648C1E69CB258095309876EF6B55A171EFD7C186A795AEF55DCEBFB950F7A8.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6035-00648C1E69CB258095309876EF6B55A171EFD7C186A795AEF55DCEBFB950F7A8.apk 
+Soot started on Fri Apr 21 08:53:58 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.android.apps.analytics.GoogleAnalyticsTracker is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1366
+[GatorHierarchy] [32mVERBOSE[0m [App: 395, Lib : 967, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 13, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 6, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682060040141
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682060049028
+[Instantiated app classes] [32mVERBOSE[0m total number: 341
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.doodlemobile.gamecenter.FeatureView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.doodlemobile.gamecenter.FeatureView added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateEngine in Class com.xsniper.likesh.CubeWallpaper1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.xsniper.likesh.CubeWallpaper1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.xsniper.likesh.CubeWallpaper1 added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameAdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class com.xsniper.likesh.LuncherWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.xsniper.likesh.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCancelled in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.featureactivity.FeatureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.xsniper.likesh.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.xsniper.likesh.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.xsniper.likesh.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.xsniper.likesh.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.xsniper.likesh.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.doodlemobile.gamecenter.QueryIDTask added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 329 methods; 329 nodes; 590 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+12 taint flow paths FOUND from <java.lang.Class: java.lang.String getName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=86
+86 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=86
+86 taint flow paths FOUND from <android.view.MotionEvent: float getY()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Paint: android.graphics.Paint$FontMetrics getFontMetrics()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=86
+86 taint flow paths FOUND from <android.view.MotionEvent: float getX()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.view.ViewGroup$LayoutParams getLayoutParams()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.SurfaceView: android.view.SurfaceHolder getHolder()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+12 taint flow paths FOUND from <java.lang.Class: java.lang.String getName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.xsniper.likesh.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.xsniper.likesh.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.xsniper.likesh.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.xsniper.likesh.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.xsniper.likesh.SniperView
+Result for malicious-app-6035-00648C1E69CB258095309876EF6B55A171EFD7C186A795AEF55DCEBFB950F7A8.apkcom.xsniper.likesh

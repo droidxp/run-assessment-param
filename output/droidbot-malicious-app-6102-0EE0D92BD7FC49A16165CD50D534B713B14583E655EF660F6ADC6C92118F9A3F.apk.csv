@@ -1,0 +1,5 @@
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"bin/Data/settings.xml"
+<org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)>;"1"
+<android.view.Window: void setFlags(int,int)>;"1024","1024"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.easyGame.Rockbymsr-XlSstKtwzSmZlKyY9ZkOxA==/base.apk"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.easyGame.Rockbymsr-XnY5YTM46_pdwdZmDvsn5w==/base.apk"

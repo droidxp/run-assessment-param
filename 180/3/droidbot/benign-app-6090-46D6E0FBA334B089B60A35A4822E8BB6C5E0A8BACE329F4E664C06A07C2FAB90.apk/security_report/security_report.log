@@ -1,0 +1,392 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6090-46D6E0FBA334B089B60A35A4822E8BB6C5E0A8BACE329F4E664C06A07C2FAB90.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6090-46D6E0FBA334B089B60A35A4822E8BB6C5E0A8BACE329F4E664C06A07C2FAB90.apk 
+Soot started on Sat Apr 22 19:30:38 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.android.pub.dream.bh is a phantom class!
+Warning: com.android.pub.dream.SDKUtils is a phantom class!
+Warning: com.android.pub.dream.AdView is a phantom class!
+Warning: com.android.pub.dream.AppConnect is a phantom class!
+Warning: com.android.pub.dream.AdInfo is a phantom class!
+Warning: com.qq.e.ads.a is a phantom class!
+Warning: com.qq.e.ads.x is a phantom class!
+Warning: com.qq.e.appwall.a is a phantom class!
+Warning: com.qq.e.ads.AdView is a phantom class!
+Warning: com.umeng.analytics.UmengOnlineConfigureListener is a phantom class!
+Warning: com.android.pub.dream.MiniAdView is a phantom class!
+Warning: com.android.pub.dream.OffersWebView is a phantom class!
+Warning: com.android.pub.dream.UpdatePointsNotifier is a phantom class!
+Warning: com.android.pub.dream.ah is a phantom class!
+Warning: com.android.pub.dream.ak is a phantom class!
+Warning: com.android.pub.dream.am is a phantom class!
+Warning: com.android.pub.dream.an is a phantom class!
+Warning: com.android.pub.dream.ao is a phantom class!
+Warning: com.android.pub.dream.as is a phantom class!
+Warning: com.android.pub.dream.at is a phantom class!
+Warning: com.android.pub.dream.b is a phantom class!
+Warning: com.qq.e.a.b is a phantom class!
+Warning: com.qq.e.a.d is a phantom class!
+Warning: com.qq.e.ads.AdRequest is a phantom class!
+Warning: com.qq.e.ads.AdSize is a phantom class!
+Warning: com.umeng.analytics.MobclickAgent is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1349
+[GatorHierarchy] [32mVERBOSE[0m [App: 433, Lib : 887, Phantom: 29]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 17
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682184639678
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u3#35 = $u3#34[$u0#27]
+second round from stmt: $u3#35 = $u3#34[$u0#27]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682184677621
+[Instantiated app classes] [32mVERBOSE[0m total number: 340
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class O added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.wiyun.engine.utils.ImagePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class af added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class af added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class af added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class af added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDownloadStart in Class t added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class V added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class z added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class M added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class e added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class W added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class x added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class x added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideUrlLoading in Class x added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedError in Class x added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ag added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class ag added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class X added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class D added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class S added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class u added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class f added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class f added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ab added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ad added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ac added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.wiyun.engine.utils.VideoPlayingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class w added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class g added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class P added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class N added
+[WARNING] [32mVERBOSE[0m Callback method :onMarkerReached in Class com.wiyun.engine.sound.AudioManager added
+[WARNING] [32mVERBOSE[0m Callback method :onPeriodicNotification in Class com.wiyun.engine.sound.AudioManager added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class U added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ae added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class ae added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class lqh.china.lianliankancgrb.PubWiEngineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class o added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class I added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class I added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideUrlLoading in Class I added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedError in Class I added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapConfirmed in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTapEvent in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onDoubleTap in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.wiyun.engine.nodes.Node added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class v added
+[WARNING] [32mVERBOSE[0m Callback method :isRedirectRequested in Class y added
+[WARNING] [32mVERBOSE[0m Callback method :getLocationURI in Class y added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class T added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class Q added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class d added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class c added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class c added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class ai added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class ai added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class Y added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class Y added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ah added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 498 methods; 498 nodes; 675 edges.
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=96
+96 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=20
+2 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=14
+1 taint flow paths FOUND from <java.lang.Throwable: java.lang.StackTraceElement[] getStackTrace()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.io.File: java.io.File[] listFiles()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuffer: java.lang.String toString()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=96
+96 taint flow paths FOUND from <java.util.TreeSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.util.HashSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=10
+maxpossibleFlows=9
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=28
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=10
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=13
+maxpossibleFlows=9
+maxpossibleFlows=13
+maxpossibleFlows=96
+96 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=10
+10 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Dialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=10
+10 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setPadding(int,int,int,int)>
+maxpossibleFlows=10
+10 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Dialog: void setContentView(android.view.View)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.URL: java.net.URLConnection openConnection()>
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class D
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class M
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class N
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class O
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class P
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class Q
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class S
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class T
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class U
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class V
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class W
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class X
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class af
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class af
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class af
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class af
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ah
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.wiyun.engine.utils.ImagePickerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wiyun.engine.utils.VideoPlayingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDownloadStart in Class t
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class u
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class v
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class w
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class z
+Result for benign-app-6090-46D6E0FBA334B089B60A35A4822E8BB6C5E0A8BACE329F4E664C06A07C2FAB90.apklqh.china.lianliankancgrb

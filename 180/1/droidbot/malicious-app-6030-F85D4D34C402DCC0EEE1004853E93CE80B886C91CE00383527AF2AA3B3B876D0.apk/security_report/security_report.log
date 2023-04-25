@@ -1,0 +1,85 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6030-F85D4D34C402DCC0EEE1004853E93CE80B886C91CE00383527AF2AA3B3B876D0.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6030-F85D4D34C402DCC0EEE1004853E93CE80B886C91CE00383527AF2AA3B3B876D0.apk 
+Soot started on Fri Apr 21 06:10:39 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 630
+[GatorHierarchy] [32mVERBOSE[0m [App: 33, Lib : 594, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682050240683
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682050241191
+[Instantiated app classes] [32mVERBOSE[0m total number: 32
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.nme.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 167 methods; 167 nodes; 181 edges.
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=8
+maxpossibleFlows=7
+maxpossibleFlows=32
+12 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=8
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=7
+maxpossibleFlows=32
+12 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.nme.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.nme.GameActivity
+Result for malicious-app-6030-F85D4D34C402DCC0EEE1004853E93CE80B886C91CE00383527AF2AA3B3B876D0.apkcom.am.BubbleW

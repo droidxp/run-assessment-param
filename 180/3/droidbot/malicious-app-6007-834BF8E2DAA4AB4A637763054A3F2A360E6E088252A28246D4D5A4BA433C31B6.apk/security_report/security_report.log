@@ -1,0 +1,138 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6007-834BF8E2DAA4AB4A637763054A3F2A360E6E088252A28246D4D5A4BA433C31B6.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6007-834BF8E2DAA4AB4A637763054A3F2A360E6E088252A28246D4D5A4BA433C31B6.apk 
+Soot started on Thu Apr 20 20:25:39 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.baidu.mobads.AdView is a phantom class!
+Warning: com.baidu.mobads.AdViewListener is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 740
+[GatorHierarchy] [32mVERBOSE[0m [App: 131, Lib : 604, Phantom: 5]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 2, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 6
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682015140784
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u0#5 = $u0#4[$u1]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682015142967
+[Instantiated app classes] [32mVERBOSE[0m total number: 54
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.mao.kakpsp.ChatScrawlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.mao.kakpsp.FingerView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.mao.kakpsp.FingerView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.mao.kakpsp.TouchView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.mao.kakpsp.TouchView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 103 methods; 103 nodes; 117 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=7
+7 taint flow paths FOUND from <android.view.View: int getId()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=4
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.Paint: void setStrokeJoin(android.graphics.Paint$Join)>
+maxpossibleFlows=4
+maxpossibleFlows=22
+maxpossibleFlows=1
+maxpossibleFlows=7
+7 taint flow paths FOUND from <android.view.View: int getId()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.Paint: void setStrokeCap(android.graphics.Paint$Cap)>
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+maxpossibleFlows=22
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mao.kakpsp.ChatScrawlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.mao.kakpsp.ChatScrawlActivity
+Result for malicious-app-6007-834BF8E2DAA4AB4A637763054A3F2A360E6E088252A28246D4D5A4BA433C31B6.apkcom.mao.kakpsp

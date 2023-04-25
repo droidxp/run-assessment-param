@@ -1,0 +1,7 @@
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.secret","OlvipsU0NRMoRGvF9q9p6uTHPx5w2HkrkINVTlbXty8vtVJQRDtz6Q=="
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.id","ba104db4-32fc-4197-8ffa-3e15d4bb4422"
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"scoreloop.properties"
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.version","1.0"
+<android.app.Activity: void setContentView(android.view.View)>;"com.doodlemobile.basket.opengl.l{1efd042 V.E...... ......I. 0,0-0,0}"
+<android.app.Activity: void setVolumeControlStream(int)>;"3"
+<java.net.URL: void <init>;ava.lang.String)>","https://api.scoreloop.com/bayeux"

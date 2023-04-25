@@ -1,0 +1,6 @@
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"bin/Data/settings.xml"
+<org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)>;"1"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/jp.colopl.wintep-JKyTVPGFIK4CNhIBsn8Nhw==/base.apk"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/jp.colopl.wintep-WbVqxdmg4I1phcCq4ednwQ==/base.apk"
+<android.app.Activity: void setContentView(int)>;"2130903040"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/jp.colopl.wintep-cTGOCjm9ByEXrF8XvHKGhw==/base.apk"

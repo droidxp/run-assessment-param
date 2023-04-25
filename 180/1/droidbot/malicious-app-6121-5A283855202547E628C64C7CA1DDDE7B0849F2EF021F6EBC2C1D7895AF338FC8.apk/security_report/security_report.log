@@ -1,0 +1,57 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6121-5A283855202547E628C64C7CA1DDDE7B0849F2EF021F6EBC2C1D7895AF338FC8.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6121-5A283855202547E628C64C7CA1DDDE7B0849F2EF021F6EBC2C1D7895AF338FC8.apk 
+Soot started on Sun Apr 23 09:25:51 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 640
+[GatorHierarchy] [32mVERBOSE[0m [App: 36, Lib : 601, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682234752735
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682234753568
+[Instantiated app classes] [32mVERBOSE[0m total number: 38
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.haxe.lime.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.lime.GameActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.haxe.lime.GameActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.haxe.lime.GameActivity
+Result for malicious-app-6121-5A283855202547E628C64C7CA1DDDE7B0849F2EF021F6EBC2C1D7895AF338FC8.apkcom.steverichey.don

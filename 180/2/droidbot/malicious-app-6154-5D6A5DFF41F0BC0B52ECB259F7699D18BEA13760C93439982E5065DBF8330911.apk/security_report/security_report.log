@@ -1,0 +1,111 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6154-5D6A5DFF41F0BC0B52ECB259F7699D18BEA13760C93439982E5065DBF8330911.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6154-5D6A5DFF41F0BC0B52ECB259F7699D18BEA13760C93439982E5065DBF8330911.apk 
+Soot started on Mon Apr 24 03:42:19 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.AdSize is a phantom class!
+Warning: com.google.ads.mediation.MediationAdRequest is a phantom class!
+Warning: com.google.ads.mediation.MediationBannerAdapter is a phantom class!
+Warning: com.google.ads.mediation.MediationBannerListener is a phantom class!
+Warning: com.google.ads.mediation.MediationInterstitialAdapter is a phantom class!
+Warning: com.google.ads.mediation.MediationInterstitialListener is a phantom class!
+Warning: com.google.ads.mediation.MediationServerParameters$Parameter is a phantom class!
+Warning: com.google.ads.mediation.MediationServerParameters is a phantom class!
+Warning: com.google.ads.mediation.NetworkExtras is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1209
+[GatorHierarchy] [32mVERBOSE[0m [App: 227, Lib : 967, Phantom: 15]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 13, Lib views: 21
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682300540156
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682300542202
+[Instantiated app classes] [32mVERBOSE[0m total number: 233
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.m.s.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.cocos2dx.lib.Cocos2dxEditText added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.balloonisland.hbtatxr.StarGems added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.mobfox.video.sdk.MobFoxRichMediaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mobfox.sdk.InAppWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.balloonisland.hbtatxr.OpeningActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 184 methods; 184 nodes; 184 edges.
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+Result for malicious-app-6154-5D6A5DFF41F0BC0B52ECB259F7699D18BEA13760C93439982E5065DBF8330911.apkcom.balloonisland.hbtatxr

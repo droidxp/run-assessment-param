@@ -1,0 +1,45 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6113-6FFC9E0DDD1526C3DD1FAEEB14032C4E5E3008B2843FFDEDD4F72A137FC5B7FF.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6113-6FFC9E0DDD1526C3DD1FAEEB14032C4E5E3008B2843FFDEDD4F72A137FC5B7FF.apk 
+Soot started on Sun Apr 23 02:43:41 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 592
+[GatorHierarchy] [32mVERBOSE[0m [App: 18, Lib : 571, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682210622314
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682210622958
+[Instantiated app classes] [32mVERBOSE[0m total number: 12
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 113 methods; 113 nodes; 128 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.polarbit.fuse.Fuse
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.polarbit.fuse.Fuse
+Result for benign-app-6113-6FFC9E0DDD1526C3DD1FAEEB14032C4E5E3008B2843FFDEDD4F72A137FC5B7FF.apknet.clearance.twt

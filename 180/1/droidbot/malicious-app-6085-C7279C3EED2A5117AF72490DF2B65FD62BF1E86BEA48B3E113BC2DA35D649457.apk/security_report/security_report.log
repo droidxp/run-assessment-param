@@ -1,0 +1,126 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6085-C7279C3EED2A5117AF72490DF2B65FD62BF1E86BEA48B3E113BC2DA35D649457.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6085-C7279C3EED2A5117AF72490DF2B65FD62BF1E86BEA48B3E113BC2DA35D649457.apk 
+Soot started on Sat Apr 22 14:36:59 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.support.v4.app.NotificationCompat$Builder is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2431
+[GatorHierarchy] [32mVERBOSE[0m [App: 1361, Lib : 1066, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 21, Lib views: 23
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 6, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682167022743
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682167034726
+[Instantiated app classes] [32mVERBOSE[0m total number: 958
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.metaps.ExchangerPrelude added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.metaps.ExchangerPrelude added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.directtap.o added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.directtap.o added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.directtap.o added
+[WARNING] [32mVERBOSE[0m Callback method :onVisibilityChanged in Class com.directtap.o added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.umeng.newxp.UBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTouchListener in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :isFocused in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.newxp.view.aN added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.fb.ContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.directtap.q added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.directtap.q added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.fb.ConversationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.metaps.e added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.umeng.newxp.view.widget.SwipeViewPointer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gipnetix.aliensspace.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.gipnetix.aliensspace.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.gipnetix.aliensspace.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.gipnetix.aliensspace.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.gipnetix.aliensspace.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 86 methods; 86 nodes; 102 edges.
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView
+Result for malicious-app-6085-C7279C3EED2A5117AF72490DF2B65FD62BF1E86BEA48B3E113BC2DA35D649457.apkcom.zrtc.zkg

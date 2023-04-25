@@ -1,0 +1,8 @@
+"<android.util.Log: int d(java.lang.String,java.lang.String)>","lime","mMainView is NULL"
+"<android.view.View: void setFocusable(boolean)>","1"
+"<android.view.View: void setFocusableInTouchMode(boolean)>","1"
+"<android.app.Activity: void setContentView(android.view.View)>","org.haxe.lime.MainView{632d56b VFE...... ......I. 0,0-0,0}"
+"<android.util.Log: int d(java.lang.String,java.lang.String)>","lime","mMainView is NULL"
+"<android.view.View: void setFocusable(boolean)>","1"
+"<android.view.View: void setFocusableInTouchMode(boolean)>","1"
+"<android.app.Activity: void setContentView(android.view.View)>","org.haxe.lime.MainView{2b2d90d VFE...... ......I. 0,0-0,0}"

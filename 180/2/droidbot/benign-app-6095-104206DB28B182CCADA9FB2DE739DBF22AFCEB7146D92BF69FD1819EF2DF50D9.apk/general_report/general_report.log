@@ -1,0 +1,27 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6095-104206DB28B182CCADA9FB2DE739DBF22AFCEB7146D92BF69FD1819EF2DF50D9.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6095-104206DB28B182CCADA9FB2DE739DBF22AFCEB7146D92BF69FD1819EF2DF50D9.apk 
+Soot started on Sat Apr 22 17:17:18 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: com.badlogic.gdx.jnigen.AntScriptGenerator is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildConfig is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildTarget$TargetOs is a phantom class!
+Warning: com.badlogic.gdx.jnigen.BuildTarget is a phantom class!
+Warning: com.badlogic.gdx.jnigen.NativeCodeGenerator is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.example.games.basegameutils.GameHelper is a phantom class!
+No main class given. Inferred 'com.badlogic.gdx.math.Intersector' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+1 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 1154 methods; 1154 nodes; 1772 edges.
+feature-vector-key = benign-app-6095-104206DB28B182CCADA9FB2DE739DBF22AFCEB7146D92BF69FD1819EF2DF50D9.apk
+Result for benign-app-6095-104206DB28B182CCADA9FB2DE739DBF22AFCEB7146D92BF69FD1819EF2DF50D9.apkcom.gringogames.trv

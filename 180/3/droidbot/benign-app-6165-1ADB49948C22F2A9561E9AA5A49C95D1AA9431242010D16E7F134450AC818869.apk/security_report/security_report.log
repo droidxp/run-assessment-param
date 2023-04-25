@@ -1,0 +1,101 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6165-1ADB49948C22F2A9561E9AA5A49C95D1AA9431242010D16E7F134450AC818869.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6165-1ADB49948C22F2A9561E9AA5A49C95D1AA9431242010D16E7F134450AC818869.apk 
+Soot started on Mon Apr 24 18:08:22 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.Ad is a phantom class!
+Warning: com.google.ads.AdListener is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.InterstitialAd is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 716
+[GatorHierarchy] [32mVERBOSE[0m [App: 52, Lib : 656, Phantom: 8]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 11
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682352503505
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682352504113
+[Instantiated app classes] [32mVERBOSE[0m total number: 57
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cronlygames.tankgceb.Tank added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cronlygames.tankgceb.Tank added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cronlygames.tankgceb.Tank added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cronlygames.tankgceb.Tank added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.cocos2dx.lib.Cocos2dxEditText added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 180 methods; 180 nodes; 175 edges.
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+Result for benign-app-6165-1ADB49948C22F2A9561E9AA5A49C95D1AA9431242010D16E7F134450AC818869.apkcom.cronlygames.tankgceb

@@ -1,0 +1,46 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6009-92209D0E67CE2C0C7D0393395E9433E36A07C95B475C622E4CD9FFFE087DF8DA.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6009-92209D0E67CE2C0C7D0393395E9433E36A07C95B475C622E4CD9FFFE087DF8DA.apk 
+Soot started on Thu Apr 20 17:37:33 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1006
+[GatorHierarchy] [32mVERBOSE[0m [App: 139, Lib : 864, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682005054558
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682005059095
+[Instantiated app classes] [32mVERBOSE[0m total number: 152
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.calmei.jmsn.PlaneFightActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.kkkwan.billing.activity.QuickPayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kkkwan.billing.activity.QuickPayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.m.s.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.kkkwan.billing.activity.WebPayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kkkwan.billing.activity.WebPayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.kkkwan.billing.activity.WebPayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 21 methods; 21 nodes; 18 edges.
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+Result for malicious-app-6009-92209D0E67CE2C0C7D0393395E9433E36A07C95B475C622E4CD9FFFE087DF8DA.apkcom.calmei.jmsn

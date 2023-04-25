@@ -1,0 +1,831 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6084-60713B0A4C0DB5443E072BF9BDFF012E35C8168325751EA1CFEE3AC9ECF701A4.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6084-60713B0A4C0DB5443E072BF9BDFF012E35C8168325751EA1CFEE3AC9ECF701A4.apk 
+Soot started on Sat Apr 22 14:45:23 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1967
+[GatorHierarchy] [32mVERBOSE[0m [App: 932, Lib : 1032, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 50, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 5, Lib views: 23
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 14, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682167526666
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682167536268
+[Instantiated app classes] [32mVERBOSE[0m total number: 603
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.SegmentedView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.market.MarketListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.achievement.AchievementListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.achievement.AchievementListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.game.GameListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.user.UserAddBuddyListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.user.UserAddBuddyListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.EntryScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.game.GameDetailListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.core.ui.PaymentDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengeActionListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeActionListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.user.UserListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.user.UserListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dodur.android.ffcftylz.SLDemoUIApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengeActionListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeCreateListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.entry.EntryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.component.entry.EntryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.achievement.AchievementHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.component.news.NewsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.news.NewsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.ShowResultOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.user.UserDetailListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.component.user.UserDetailListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.user.UserDetailListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.user.UserDetailListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.dodur.android.ffcftylz.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.dodur.android.ffcftylz.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.dodur.android.ffcftylz.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.dodur.android.ffcftylz.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.dodur.android.ffcftylz.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengeAcceptListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengeAcceptListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeAcceptListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.component.challenge.ChallengeAcceptListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.component.challenge.ChallengeAcceptListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.BuddiesScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dodur.android.ffcftylz.HowToPlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.SegmentedView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.LeaderboardsScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.ChallengesScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.scoreloop.client.android.ui.framework.TabsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.TabsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.TabsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.AchievementsScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.SocialMarketScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.challenge.ChallengeListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.score.ScoreListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.score.ScoreListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengePaymentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.component.challenge.ChallengePaymentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengePaymentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.component.challenge.ChallengePaymentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsPictureListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsPictureListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.ProfileScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.game.GameDetailHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.component.game.GameDetailHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.user.UserHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.user.UserHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.base.ComponentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.news.NewsHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.SegmentedView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dodur.android.splash.GradualSplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 182 methods; 182 nodes; 184 edges.
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.content.res.Configuration getConfiguration()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.SurfaceView: android.view.SurfaceHolder getHolder()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.net.URL: void <init>(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.dodur.android.splash.GradualSplashActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.dodur.android.splash.GradualSplashActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.dodur.android.splash.GradualSplashActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dodur.android.splash.GradualSplashActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.dodur.android.splash.GradualSplashActivity, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.dodur.android.splash.GradualSplashActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.dodur.android.splash.GradualSplashActivity, subsig: void surfaceCreated(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.dodur.android.splash.GradualSplashActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.dodur.android.splash.GradualSplashActivity, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.dodur.android.splash.GradualSplashActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.ScreenActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.SegmentedView, subsig: void onClick(android.view.View)
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.SegmentedView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.component.post.PostOverlayActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity, subsig: void onClick(android.view.View)
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentHeaderActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onBackPressed()
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: boolean onCreateOptionsMenu(android.view.Menu)
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onDismiss(android.content.DialogInterface)
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: boolean onOptionsItemSelected(android.view.MenuItem)
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onPrepareDialog(int,android.app.Dialog)
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: boolean onPrepareOptionsMenu(android.view.Menu)
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onRestart()
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onSaveInstanceState(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onStart()
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.scoreloop.client.android.ui.framework.BaseActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentListActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentListActivity, subsig: void onClick(android.view.View)
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentListActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.component.base.ComponentListActivity, subsig: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.scoreloop.client.android.ui.component.base.ComponentListActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.scoreloop.client.android.ui.framework.BaseDialog, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.BaseDialog
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.ui.component.challenge.ChallengeHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.scoreloop.client.android.ui.component.market.MarketHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.component.user.UserHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.component.user.UserHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.component.user.UserHeaderActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.scoreloop.client.android.ui.framework.TabsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.scoreloop.client.android.ui.framework.TabsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.ui.framework.TabsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.scoreloop.client.android.ui.framework.TabsActivity
+Result for benign-app-6084-60713B0A4C0DB5443E072BF9BDFF012E35C8168325751EA1CFEE3AC9ECF701A4.apkcom.dodur.android.ffcftylz

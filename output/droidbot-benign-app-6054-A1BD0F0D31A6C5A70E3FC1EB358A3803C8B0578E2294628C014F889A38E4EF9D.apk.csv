@@ -1,0 +1,8 @@
+<java.io.OutputStream: void write(byte[])>;"[B@74ac497"
+<android.app.Activity: void setContentView(android.view.View)>;"com.polarbit.fuse.Fuse$RenderSurface{18d43e6 VFE...... ......I. 0,0-0,0}"
+<android.view.View: void setFocusableInTouchMode(boolean)>;"1"
+<android.app.Activity: void setContentView(android.view.View)>;"com.polarbit.fuse.Fuse$RenderSurface{685e684 VFE...... ......I. 0,0-0,0}"
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"nnx.bc"
+<android.view.Window: void setFlags(int,int)>;"128","128"
+<android.app.Activity: void setContentView(android.view.View)>;"com.polarbit.fuse.Fuse$RenderSurface{7357674 VFE...... ......I. 0,0-0,0}"
+<java.io.OutputStream: void write(byte[])>;"[B@bbd9241"

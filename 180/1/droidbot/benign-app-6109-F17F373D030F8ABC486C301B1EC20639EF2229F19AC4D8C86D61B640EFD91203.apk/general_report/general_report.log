@@ -1,0 +1,17 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6109-F17F373D030F8ABC486C301B1EC20639EF2229F19AC4D8C86D61B640EFD91203.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6109-F17F373D030F8ABC486C301B1EC20639EF2229F19AC4D8C86D61B640EFD91203.apk 
+Soot started on Sat Apr 22 23:44:12 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 491 methods; 491 nodes; 690 edges.
+feature-vector-key = benign-app-6109-F17F373D030F8ABC486C301B1EC20639EF2229F19AC4D8C86D61B640EFD91203.apk
+Result for benign-app-6109-F17F373D030F8ABC486C301B1EC20639EF2229F19AC4D8C86D61B640EFD91203.apknet.chobin.android.pzqab

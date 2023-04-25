@@ -1,0 +1,26 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6024-A0D996886B7CC44457B7AB640D0E80D8B880A863A62E8751228BA3402C5A0BEA.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6024-A0D996886B7CC44457B7AB640D0E80D8B880A863A62E8751228BA3402C5A0BEA.apk 
+Soot started on Fri Apr 21 11:33:58 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.ad_stir.ad.AdListener is a phantom class!
+Warning: com.ad_stir.ad.BaseAdView is a phantom class!
+Warning: com.ad_stir.ad.AdErrorCode is a phantom class!
+Warning: jp.adlantis.android.AdlantisView is a phantom class!
+Warning: com.godeatead.ads.AdView is a phantom class!
+Warning: jp.co.cyberagent.fasdasdwdasdView is a phantom class!
+Warning: com.ad_stir.icon.IconView is a phantom class!
+Warning: net.nend.android.NendAdView is a phantom class!
+Warning: com.ad_stir.rtb.RTBMediationAdapter is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 49 methods; 49 nodes; 42 edges.
+feature-vector-key = malicious-app-6024-A0D996886B7CC44457B7AB640D0E80D8B880A863A62E8751228BA3402C5A0BEA.apk
+Result for malicious-app-6024-A0D996886B7CC44457B7AB640D0E80D8B880A863A62E8751228BA3402C5A0BEA.apkcom.Beltheva.gamz

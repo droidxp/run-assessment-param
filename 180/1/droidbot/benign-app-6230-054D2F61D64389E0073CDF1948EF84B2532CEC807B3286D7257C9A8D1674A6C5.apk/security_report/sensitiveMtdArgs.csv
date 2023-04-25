@@ -1,0 +1,8 @@
+"<android.view.Window: void setFlags(int,int)>","1024","1024"
+"<android.app.Activity: void setContentView(android.view.View)>","com.jonathanlanis.boost2.DemoGLSurfaceView{ea9253e V.E...... ......I. 0,0-0,0}"
+"<android.app.Activity: void setVolumeControlStream(int)>","3"
+"<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>","hud.plist"
+"<android.util.Log: int e(java.lang.String,java.lang.String)>","Wd",""
+"<android.content.res.Resources: java.io.InputStream openRawResource(int)>","2130837537"
+"<android.os.Handler: boolean sendEmptyMessage(int)>","14"
+"<java.io.OutputStream: void write(byte[])>","[B@8bcfcf1"

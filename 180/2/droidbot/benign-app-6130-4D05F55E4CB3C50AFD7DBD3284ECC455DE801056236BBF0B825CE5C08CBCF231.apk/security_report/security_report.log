@@ -1,0 +1,97 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6130-4D05F55E4CB3C50AFD7DBD3284ECC455DE801056236BBF0B825CE5C08CBCF231.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6130-4D05F55E4CB3C50AFD7DBD3284ECC455DE801056236BBF0B825CE5C08CBCF231.apk 
+Soot started on Sun Apr 23 12:18:55 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 811
+[GatorHierarchy] [32mVERBOSE[0m [App: 108, Lib : 700, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682245137518
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u0#19 = $u0#17[$u1#18]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u5#125 = $u5#123[$u8#124]
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682245150497
+[Instantiated app classes] [32mVERBOSE[0m total number: 114
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class net.chobin.android.psdxylz.app.AppBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class net.chobin.android.psdxylz.app.a added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class net.chobin.android.a.f added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class net.chobin.android.a.f added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class net.chobin.android.a.i added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class net.chobin.android.psdxylz.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.chobin.android.psdxylz.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class net.chobin.android.psdxylz.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class net.chobin.android.psdxylz.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class net.chobin.android.psdxylz.app.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class net.chobin.android.psdxylz.app.k added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.chobin.android.psdxylz.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class net.chobin.android.psdxylz.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class net.chobin.android.psdxylz.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class net.chobin.android.psdxylz.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: void surfaceCreated(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class net.chobin.android.psdxylz.app.k
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: net.chobin.android.psdxylz.app.k, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class net.chobin.android.psdxylz.app.k
+Result for benign-app-6130-4D05F55E4CB3C50AFD7DBD3284ECC455DE801056236BBF0B825CE5C08CBCF231.apknet.chobin.android.psdxylz

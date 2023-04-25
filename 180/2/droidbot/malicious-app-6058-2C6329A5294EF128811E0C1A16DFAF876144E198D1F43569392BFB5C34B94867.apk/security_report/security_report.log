@@ -1,0 +1,73 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6058-2C6329A5294EF128811E0C1A16DFAF876144E198D1F43569392BFB5C34B94867.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6058-2C6329A5294EF128811E0C1A16DFAF876144E198D1F43569392BFB5C34B94867.apk 
+Soot started on Fri Apr 21 17:34:20 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1119
+[GatorHierarchy] [32mVERBOSE[0m [App: 172, Lib : 944, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 6, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682091261421
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682091263570
+[Instantiated app classes] [32mVERBOSE[0m total number: 198
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.plugin.downloader.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.unity3d.plugin.downloader.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.unity3d.plugin.downloader.UnityDownloaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.plugin.downloader.UnityDownloaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.plugin.downloader.UnityDownloaderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.e added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.e added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.unity3d.player.ac added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotionEvent in Class com.unity3d.player.ac added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.plugin.downloader.b.p added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.unity3d.plugin.downloader.b.f added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.unity3d.plugin.downloader.UnityAlarmReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.plugin.downloader.c.h added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerProxyActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 24 methods; 24 nodes; 22 edges.
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.e, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.e
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.unity3d.player.e, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.e
+Result for malicious-app-6058-2C6329A5294EF128811E0C1A16DFAF876144E198D1F43569392BFB5C34B94867.apkcom.tags.DinoTw

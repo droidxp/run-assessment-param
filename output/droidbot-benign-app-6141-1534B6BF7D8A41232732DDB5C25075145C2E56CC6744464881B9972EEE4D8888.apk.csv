@@ -1,0 +1,5 @@
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"nnx.bc"
+<android.util.Log: int i(java.lang.String,java.lang.String)>;"StartupTime1",":1682292970574"
+<android.util.Log: int i(java.lang.String,java.lang.String)>;"StartupTime1",":1682292909287"
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"ccn.ac"
+<java.io.OutputStream: void write(byte[])>;"[B@e348750"

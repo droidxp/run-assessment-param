@@ -1,0 +1,43 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6090-5C4E44AF203B7FB3634F043256F67F5E03965458F507638FBA54554EEB28C41F.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6090-5C4E44AF203B7FB3634F043256F67F5E03965458F507638FBA54554EEB28C41F.apk 
+Soot started on Sat Apr 22 19:36:52 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.android.pub.dream.bh is a phantom class!
+Warning: com.android.pub.dream.SDKUtils is a phantom class!
+Warning: com.android.pub.dream.AdView is a phantom class!
+Warning: com.android.pub.dream.AppConnect is a phantom class!
+Warning: com.android.pub.dream.AdInfo is a phantom class!
+Warning: com.qq.e.ads.a is a phantom class!
+Warning: com.qq.e.ads.x is a phantom class!
+Warning: com.qq.e.appwall.a is a phantom class!
+Warning: com.qq.e.ads.AdView is a phantom class!
+Warning: com.umeng.analytics.UmengOnlineConfigureListener is a phantom class!
+Warning: com.android.pub.dream.MiniAdView is a phantom class!
+Warning: com.android.pub.dream.OffersWebView is a phantom class!
+Warning: com.android.pub.dream.UpdatePointsNotifier is a phantom class!
+Warning: com.android.pub.dream.ah is a phantom class!
+Warning: com.android.pub.dream.ak is a phantom class!
+Warning: com.android.pub.dream.am is a phantom class!
+Warning: com.android.pub.dream.an is a phantom class!
+Warning: com.android.pub.dream.ao is a phantom class!
+Warning: com.android.pub.dream.as is a phantom class!
+Warning: com.android.pub.dream.at is a phantom class!
+Warning: com.android.pub.dream.b is a phantom class!
+Warning: com.qq.e.a.b is a phantom class!
+Warning: com.qq.e.a.d is a phantom class!
+Warning: com.qq.e.ads.AdRequest is a phantom class!
+Warning: com.qq.e.ads.AdSize is a phantom class!
+Warning: com.umeng.analytics.MobclickAgent is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 99 methods; 99 nodes; 114 edges.
+feature-vector-key = malicious-app-6090-5C4E44AF203B7FB3634F043256F67F5E03965458F507638FBA54554EEB28C41F.apk
+Result for malicious-app-6090-5C4E44AF203B7FB3634F043256F67F5E03965458F507638FBA54554EEB28C41F.apklqh.china.lianliankancgrb

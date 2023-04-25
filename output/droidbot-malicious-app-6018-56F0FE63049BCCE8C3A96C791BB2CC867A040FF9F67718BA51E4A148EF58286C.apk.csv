@@ -1,0 +1,6 @@
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.Company1.ProductCx-mHNFfqKvG7pZhgrirmvvBw==/base.apk"
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"bin/Data/settings.xml"
+<org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)>;"1"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.Company1.ProductCx-CVUDohTYBsEDwZQCZopfAg==/base.apk"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.Company1.ProductCx-z2KBSVhhTYy8_48YIVQVuA==/base.apk"
+<android.app.Activity: void startActivity(android.content.Intent)>;"Intent { flg=0x10000 cmp=com.Company1.ProductCx/com.unity3d.player.UnityPlayerNativeActivity }"

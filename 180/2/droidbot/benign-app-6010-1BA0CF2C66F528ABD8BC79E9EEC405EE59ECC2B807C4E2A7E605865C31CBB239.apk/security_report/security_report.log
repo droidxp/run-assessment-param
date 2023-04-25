@@ -1,0 +1,182 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6010-1BA0CF2C66F528ABD8BC79E9EEC405EE59ECC2B807C4E2A7E605865C31CBB239.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6010-1BA0CF2C66F528ABD8BC79E9EEC405EE59ECC2B807C4E2A7E605865C31CBB239.apk 
+Soot started on Thu Apr 20 17:35:46 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.ideaworks3d.marmalade.LoaderActivity is a phantom class!
+Warning: net.robotmedia.billing.helper.AbstractBillingObserver is a phantom class!
+Warning: net.robotmedia.billing.BillingController$IConfiguration is a phantom class!
+Warning: net.robotmedia.billing.model.Transaction$PurchaseState is a phantom class!
+Warning: net.robotmedia.billing.request.ResponseCode is a phantom class!
+Warning: com.unity3d.player.UnityPlayer is a phantom class!
+Warning: net.robotmedia.billing.BillingController$BillingStatus is a phantom class!
+Warning: net.robotmedia.billing.BillingController is a phantom class!
+Warning: net.robotmedia.billing.IBillingObserver is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1746
+[GatorHierarchy] [32mVERBOSE[0m [App: 738, Lib : 995, Phantom: 13]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 13, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 12, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 5, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682004947643
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682004954084
+[Instantiated app classes] [32mVERBOSE[0m total number: 525
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.tgb.bg.jevcyx.views.TGBMainMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tgb.bg.jevcyx.views.TGBMainMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.views.TGBMainMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tgb.bg.jevcyx.views.TGBMainMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tgb.bg.jevcyx.views.TGBMainMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.views.SplashActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.refurbished.TGBLayoutGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.refurbished.TGBActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tgb.bg.jevcyx.views.TGBMainGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tgb.bg.jevcyx.views.LBAds added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.refurbished.TGBActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tgb.bg.jevcyx.views.LBAds added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.heyzap.sdk.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.heyzap.sdk.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.tgb.bg.jevcyx.refurbished.l added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.heyzap.sdk.HeyzapDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.heyzap.sdk.ClickableToast added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.heyzap.sdk.HeyzapDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.heyzap.sdk.ClickableToast added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 572 methods; 572 nodes; 643 edges.
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=6
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.tgb.bg.jevcyx.refurbished.l, subsig: void onDismiss(android.content.DialogInterface)
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class com.tgb.bg.jevcyx.refurbished.l
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.tgb.bg.jevcyx.views.LBAds
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tgb.bg.jevcyx.views.LBAds
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tgb.bg.jevcyx.views.LBAds
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tgb.bg.jevcyx.views.TGBMainMenu
+Result for benign-app-6010-1BA0CF2C66F528ABD8BC79E9EEC405EE59ECC2B807C4E2A7E605865C31CBB239.apkcom.tgb.bg.jevcyx

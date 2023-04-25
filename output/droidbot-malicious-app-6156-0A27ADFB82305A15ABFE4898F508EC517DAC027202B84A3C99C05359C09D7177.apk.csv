@@ -1,0 +1,6 @@
+<android.view.View: void setFocusableInTouchMode(boolean)>;"1"
+<android.util.Log: int d(java.lang.String,java.lang.String)>;"Cocos2dxActivity","product=sdk_gphone_x86_arm"
+<android.util.Log: int d(java.lang.String,java.lang.String)>;"Cocos2dxActivity","model=AOSP on IA Emulator"
+<android.util.Log: int d(java.lang.String,java.lang.String)>;"Cocos2dxActivity","isEmulator=true"
+<android.app.Activity: void setContentView(android.view.View)>;"android.widget.FrameLayout{fa5da73 V.E...... ......I. 0,0-0,0}"
+<android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>;"android.graphics.drawable.BitmapDrawable@d8cf03a"

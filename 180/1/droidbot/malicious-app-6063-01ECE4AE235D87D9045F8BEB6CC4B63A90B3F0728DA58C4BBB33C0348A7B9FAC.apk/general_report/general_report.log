@@ -1,0 +1,91 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6063-01ECE4AE235D87D9045F8BEB6CC4B63A90B3F0728DA58C4BBB33C0348A7B9FAC.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6063-01ECE4AE235D87D9045F8BEB6CC4B63A90B3F0728DA58C4BBB33C0348A7B9FAC.apk 
+Soot started on Sat Apr 22 03:38:37 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Lorg/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonMethod;'
+get type from 'Lorg/codehaus/jackson/annotate/JsonTypeInfo$As;'
+get type from 'Lorg/codehaus/jackson/map/annotate/JsonSerialize$Inclusion;'
+get type from 'Lorg/codehaus/jackson/map/annotate/JsonSerialize$Typing;'
+Warning: java.beans.BeanInfo is a phantom class!
+Warning: java.beans.IntrospectionException is a phantom class!
+Warning: java.beans.Introspector is a phantom class!
+Warning: java.beans.PropertyDescriptor is a phantom class!
+Warning: javax.activation.DataHandler is a phantom class!
+Warning: javax.activation.DataSource is a phantom class!
+Warning: javax.ws.rs.Consumes is a phantom class!
+Warning: javax.ws.rs.Produces is a phantom class!
+Warning: javax.ws.rs.core.Context is a phantom class!
+Warning: javax.ws.rs.core.MediaType is a phantom class!
+Warning: javax.ws.rs.core.MultivaluedMap is a phantom class!
+Warning: javax.ws.rs.core.Response$ResponseBuilder is a phantom class!
+Warning: javax.ws.rs.core.Response$Status is a phantom class!
+Warning: javax.ws.rs.core.Response is a phantom class!
+Warning: javax.ws.rs.core.StreamingOutput is a phantom class!
+Warning: javax.ws.rs.ext.ContextResolver is a phantom class!
+Warning: javax.ws.rs.ext.ExceptionMapper is a phantom class!
+Warning: javax.ws.rs.ext.MessageBodyReader is a phantom class!
+Warning: javax.ws.rs.ext.MessageBodyWriter is a phantom class!
+Warning: javax.ws.rs.ext.Provider is a phantom class!
+Warning: javax.ws.rs.ext.Providers is a phantom class!
+Warning: javax.xml.bind.JAXBElement is a phantom class!
+Warning: javax.xml.bind.annotation.XmlAccessOrder is a phantom class!
+Warning: javax.xml.bind.annotation.XmlAccessType is a phantom class!
+Warning: javax.xml.bind.annotation.XmlAccessorOrder is a phantom class!
+Warning: javax.xml.bind.annotation.XmlAccessorType is a phantom class!
+Warning: javax.xml.bind.annotation.XmlAttribute is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElement$DEFAULT is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElement is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElementRef is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElementRefs is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElementWrapper is a phantom class!
+Warning: javax.xml.bind.annotation.XmlElements is a phantom class!
+Warning: javax.xml.bind.annotation.XmlEnumValue is a phantom class!
+Warning: javax.xml.bind.annotation.XmlRootElement is a phantom class!
+Warning: javax.xml.bind.annotation.XmlTransient is a phantom class!
+Warning: javax.xml.bind.annotation.XmlType is a phantom class!
+Warning: javax.xml.bind.annotation.XmlValue is a phantom class!
+Warning: javax.xml.bind.annotation.adapters.XmlAdapter is a phantom class!
+Warning: javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT is a phantom class!
+Warning: javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter is a phantom class!
+Warning: javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: org.joda.time.DateMidnight is a phantom class!
+Warning: org.joda.time.format.DateTimeFormatter is a phantom class!
+Warning: org.joda.time.DateTime is a phantom class!
+Warning: org.joda.time.ReadableInstant is a phantom class!
+Warning: org.joda.time.LocalDate is a phantom class!
+Warning: org.joda.time.LocalDateTime is a phantom class!
+Warning: org.joda.time.ReadablePartial is a phantom class!
+Warning: org.joda.time.DateMidnight$Property is a phantom class!
+Warning: org.joda.time.DateTimeZone is a phantom class!
+Warning: org.joda.time.LocalDate$Property is a phantom class!
+Warning: org.joda.time.LocalDateTime$Property is a phantom class!
+Warning: org.joda.time.ReadableDateTime is a phantom class!
+Warning: org.joda.time.format.ISODateTimeFormat is a phantom class!
+Warning: org.w3c.dom.bootstrap.DOMImplementationRegistry is a phantom class!
+get type from 'Z'
+No main class given. Inferred 'org.codehaus.jackson.smile.Tool' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.9 seconds.
+[Spark] Solution found in 2.9 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 261 methods; 261 nodes; 312 edges.
+feature-vector-key = malicious-app-6063-01ECE4AE235D87D9045F8BEB6CC4B63A90B3F0728DA58C4BBB33C0348A7B9FAC.apk
+Result for malicious-app-6063-01ECE4AE235D87D9045F8BEB6CC4B63A90B3F0728DA58C4BBB33C0348A7B9FAC.apkcom.turntable.gk

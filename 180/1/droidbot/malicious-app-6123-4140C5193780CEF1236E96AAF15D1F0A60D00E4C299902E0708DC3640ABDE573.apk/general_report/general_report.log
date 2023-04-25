@@ -1,0 +1,55 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6123-4140C5193780CEF1236E96AAF15D1F0A60D00E4C299902E0708DC3640ABDE573.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6123-4140C5193780CEF1236E96AAF15D1F0A60D00E4C299902E0708DC3640ABDE573.apk 
+Soot started on Sun Apr 23 09:26:17 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+Warning: com.umeng.newxp.view.D is a phantom class!
+Warning: com.umeng.newxp.view.d is a phantom class!
+Warning: com.umeng.newxp.view.aI is a phantom class!
+Warning: com.umeng.newxp.view.f is a phantom class!
+Warning: com.umeng.newxp.view.aF is a phantom class!
+Warning: com.umeng.newxp.view.F is a phantom class!
+Warning: com.umeng.newxp.view.G is a phantom class!
+Warning: com.umeng.newxp.view.H is a phantom class!
+Warning: com.umeng.newxp.view.I is a phantom class!
+Warning: com.umeng.newxp.view.J is a phantom class!
+Warning: com.umeng.newxp.view.L is a phantom class!
+Warning: com.umeng.newxp.view.M is a phantom class!
+Warning: com.umeng.newxp.view.N is a phantom class!
+Warning: com.umeng.newxp.view.O is a phantom class!
+Warning: com.umeng.newxp.view.W is a phantom class!
+Warning: com.umeng.newxp.view.Y is a phantom class!
+Warning: com.umeng.newxp.view.Z is a phantom class!
+Warning: com.umeng.newxp.view.a is a phantom class!
+Warning: com.umeng.newxp.view.aK is a phantom class!
+Warning: com.umeng.newxp.view.aN is a phantom class!
+Warning: com.umeng.newxp.view.aa is a phantom class!
+Warning: com.umeng.newxp.view.ac is a phantom class!
+Warning: com.umeng.newxp.view.ae is a phantom class!
+Warning: com.umeng.newxp.view.ai is a phantom class!
+Warning: com.umeng.newxp.view.aj is a phantom class!
+Warning: com.umeng.newxp.view.ak is a phantom class!
+Warning: com.umeng.newxp.view.al is a phantom class!
+Warning: com.umeng.newxp.view.am is a phantom class!
+Warning: com.umeng.newxp.view.an is a phantom class!
+Warning: com.umeng.newxp.view.aw is a phantom class!
+Warning: com.umeng.newxp.view.i is a phantom class!
+Warning: com.umeng.newxp.view.o is a phantom class!
+Warning: com.umeng.newxp.view.r is a phantom class!
+Warning: com.umeng.newxp.view.s is a phantom class!
+Warning: com.umeng.newxp.view.t is a phantom class!
+Warning: com.umeng.newxp.view.w is a phantom class!
+No main class given. Inferred 'air.top.free.fun.game.Rucb.GetVersionCode' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+feature-vector-key = malicious-app-6123-4140C5193780CEF1236E96AAF15D1F0A60D00E4C299902E0708DC3640ABDE573.apk
+Result for malicious-app-6123-4140C5193780CEF1236E96AAF15D1F0A60D00E4C299902E0708DC3640ABDE573.apkair.top.free.fun.game.Rucb

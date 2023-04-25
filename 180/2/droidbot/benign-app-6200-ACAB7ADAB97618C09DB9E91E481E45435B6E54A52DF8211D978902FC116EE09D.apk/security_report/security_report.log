@@ -1,0 +1,388 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6200-ACAB7ADAB97618C09DB9E91E481E45435B6E54A52DF8211D978902FC116EE09D.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6200-ACAB7ADAB97618C09DB9E91E481E45435B6E54A52DF8211D978902FC116EE09D.apk 
+Soot started on Tue Apr 25 05:18:51 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.cat.tools.test.CatView is a phantom class!
+Warning: com.cat.tools.test1.CatView is a phantom class!
+Warning: com.cat.tools.test2.CatView is a phantom class!
+Warning: com.cat.tools.test3.CatView is a phantom class!
+Warning: com.cat.tools.test.AdListener is a phantom class!
+Warning: com.cat.tools.test.Ad is a phantom class!
+Warning: com.cat.tools.test.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test1.AdListener is a phantom class!
+Warning: com.cat.tools.test1.Ad is a phantom class!
+Warning: com.cat.tools.test1.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test2.AdListener is a phantom class!
+Warning: com.cat.tools.test2.Ad is a phantom class!
+Warning: com.cat.tools.test2.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test3.AdListener is a phantom class!
+Warning: com.cat.tools.test3.Ad is a phantom class!
+Warning: com.cat.tools.test3.AdRequest$ErrorCode is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1125
+[GatorHierarchy] [32mVERBOSE[0m [App: 190, Lib : 916, Phantom: 19]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682392732458
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682392734559
+[Instantiated app classes] [32mVERBOSE[0m total number: 201
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgoerc.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgoerc.DoubleRowContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.DoubleRowContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.cat.pianocgoerc.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.cat.pianocgoerc.OverviewBar added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgoerc.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgoerc.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgoerc.DropArea added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgoerc.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgoerc.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.cat.pianocgoerc.FileManagerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.FileManagerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgoerc.PianoView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgoerc.RecordingsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgoerc.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgoerc.DownloadMoreSongsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cat.pianocgoerc.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgoerc.KeyBoards added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.cat.pianocgoerc.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgoerc.MainWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgoerc.AudioPlayerFloatingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgoerc.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgoerc.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgoerc.SongsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgoerc.Navigator added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.cat.pianocgoerc.LearnModeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cat.pianocgoerc.LearnModeActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 229 methods; 229 nodes; 326 edges.
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=12
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=12
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgoerc.KeyBoards
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.cat.pianocgoerc.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.cat.pianocgoerc.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.cat.pianocgoerc.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.cat.pianocgoerc.DropArea
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.cat.pianocgoerc.DropArea
+Result for benign-app-6200-ACAB7ADAB97618C09DB9E91E481E45435B6E54A52DF8211D978902FC116EE09D.apkcom.cat.pianocgoerc

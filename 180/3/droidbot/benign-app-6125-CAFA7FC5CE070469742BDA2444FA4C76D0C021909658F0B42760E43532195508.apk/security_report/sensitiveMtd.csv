@@ -1,0 +1,6 @@
+category,analysis,method
+NETWORK_INFORMATION,STATIC,<java.io.Writer: java.io.Writer append(java.lang.CharSequence,int,int)>
+NETWORK_INFORMATION,STATIC,<java.lang.Object: java.lang.Object clone()>
+NETWORK_INFORMATION,DYNAMIC,<android.content.Intent: java.lang.String getAction()>
+NETWORK_INFORMATION,DYNAMIC,<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>
+NETWORK_INFORMATION,DYNAMIC,<android.content.Intent: android.net.Uri getData()>

@@ -1,0 +1,174 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6201-CCFF6AC093C8FCDDFB77CCB582871793D811B19D54F3A62711EE489A05F72AA4.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6201-CCFF6AC093C8FCDDFB77CCB582871793D811B19D54F3A62711EE489A05F72AA4.apk 
+Soot started on Tue Apr 25 08:01:23 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 812
+[GatorHierarchy] [32mVERBOSE[0m [App: 63, Lib : 746, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682402484848
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682402485649
+[Instantiated app classes] [32mVERBOSE[0m total number: 65
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.Ina.Notegreczkem.SmipleNotePad added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Notegreczkem.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.Ina.Notegreczkem.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.Ina.Notegreczkem.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.Ina.Notegreczkem.ReadText added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Notegreczkem.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Notegreczkem.NoteText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.NoteText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.MoreAppActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Ina.Notegreczkem.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Ina.Notegreczkem.MoreActivity added
+3 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 97 methods; 97 nodes; 104 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+2 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+2 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+2 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+Result for benign-app-6201-CCFF6AC093C8FCDDFB77CCB582871793D811B19D54F3A62711EE489A05F72AA4.apkcom.Ina.Notegreczkem

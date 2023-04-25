@@ -1,0 +1,4 @@
+<android.app.Activity: void startActivity(android.content.Intent)>;"Intent { flg=0x10000 cmp=com.Company1.ProductC/com.unity3d.player.UnityPlayerNativeActivity }"
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>;"apk","/data/app/com.Company1.ProductC-VjhUqLNIX6j3NYCfHUzZjw==/base.apk"
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"bin/Data/settings.xml"
+<org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)>;"1"

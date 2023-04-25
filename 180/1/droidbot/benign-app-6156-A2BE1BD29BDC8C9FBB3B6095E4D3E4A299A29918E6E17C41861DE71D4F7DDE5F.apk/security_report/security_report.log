@@ -1,0 +1,109 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6156-A2BE1BD29BDC8C9FBB3B6095E4D3E4A299A29918E6E17C41861DE71D4F7DDE5F.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6156-A2BE1BD29BDC8C9FBB3B6095E4D3E4A299A29918E6E17C41861DE71D4F7DDE5F.apk 
+Soot started on Mon Apr 24 03:42:07 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.domob.android.ads.DomobAdManager$ErrorCode is a phantom class!
+Warning: cn.domob.android.ads.DomobInterstitialAd is a phantom class!
+Warning: cn.domob.android.ads.DomobInterstitialAdListener is a phantom class!
+No main class given. Inferred 'com.sina.weibo.sdk.utils.MD5' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1611
+[GatorHierarchy] [32mVERBOSE[0m [App: 548, Lib : 1057, Phantom: 6]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 10, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 8, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682300529587
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682300534087
+[Instantiated app classes] [32mVERBOSE[0m total number: 469
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.weibo.sdk.view.LogoutButton added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.sina.sso.RemoteSSO$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.sina.sso.RemoteSSO$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.weibo.sdk.android.net.NetStateManager$NetStateReceive added
+[WARNING] [32mVERBOSE[0m Callback method :writeToParcel in Class com.sina.weibo.sdk.api.BaseMediaObject added
+[WARNING] [32mVERBOSE[0m Callback method :describeContents in Class com.sina.weibo.sdk.api.BaseMediaObject added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.newxp.view.aN added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :isFocused in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.umeng.newxp.view.widget.SwipeViewPointer added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.coboqo.alipay.AlipayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.coboqo.alipay.AlipayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.coboqo.alipay.AlipayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.coboqo.alipay.AlipayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.coboqo.alipay.AlipayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.coboqo.fishn.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.coboqo.fishn.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.coboqo.fishn.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.alipay.android.app.IAlixPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.alipay.android.app.IAlixPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.coboqo.sinaweibo.SinaWeiboActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.coboqo.sinaweibo.SinaWeiboActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.coboqo.sinaweibo.SinaWeiboActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.coboqo.sinaweibo.SinaWeiboActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.coboqo.sinaweibo.SinaWeiboActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTouchListener in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.alipay.android.app.IRemoteServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.alipay.android.app.IRemoteServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2dx.lib.Cocos2dxActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.umeng.newxp.UBroadcastReceiver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 245 methods; 245 nodes; 308 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.weibo.sdk.view.LogoutButton
+Result for benign-app-6156-A2BE1BD29BDC8C9FBB3B6095E4D3E4A299A29918E6E17C41861DE71D4F7DDE5F.apkcom.coboqo.fishn

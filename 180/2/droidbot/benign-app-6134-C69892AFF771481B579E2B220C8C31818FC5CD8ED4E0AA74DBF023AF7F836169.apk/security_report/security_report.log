@@ -1,0 +1,109 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/benign-app-6134-C69892AFF771481B579E2B220C8C31818FC5CD8ED4E0AA74DBF023AF7F836169.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6134-C69892AFF771481B579E2B220C8C31818FC5CD8ED4E0AA74DBF023AF7F836169.apk 
+Soot started on Sun Apr 23 12:18:15 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.android.apps.analytics.GoogleAnalyticsTracker is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1366
+[GatorHierarchy] [32mVERBOSE[0m [App: 395, Lib : 967, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 13, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 6, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682245097560
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682245110128
+[Instantiated app classes] [32mVERBOSE[0m total number: 341
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.sniper.util.Utility$LoadBitmapAsyncTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.featureactivity.FeatureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.doodlemobile.gamecenter.QueryIDTask added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class com.Company1.ProductCxq.LuncherWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCancelled in Class com.sniper.graph.AsTask added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.doodlemobile.gamecenter.FeatureView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.doodlemobile.gamecenter.FeatureView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.Company1.ProductCxq.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.Company1.ProductCxq.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Company1.ProductCxq.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.Company1.ProductCxq.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.Company1.ProductCxq.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.Company1.ProductCxq.SniperView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressUpdate in Class com.doodlemobile.gamecenter.GetFeatureImageTask added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameAdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateEngine in Class com.Company1.ProductCxq.CubeWallpaper1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.Company1.ProductCxq.CubeWallpaper1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.Company1.ProductCxq.CubeWallpaper1 added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.Company1.ProductCxq.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.Company1.ProductCxq.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.Company1.ProductCxq.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.Company1.ProductCxq.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.Company1.ProductCxq.SniperView
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget
+Result for benign-app-6134-C69892AFF771481B579E2B220C8C31818FC5CD8ED4E0AA74DBF023AF7F836169.apkcom.Company1.ProductCxq

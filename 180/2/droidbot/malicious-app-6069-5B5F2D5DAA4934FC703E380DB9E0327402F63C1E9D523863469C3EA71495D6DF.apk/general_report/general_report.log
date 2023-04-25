@@ -1,0 +1,29 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6069-5B5F2D5DAA4934FC703E380DB9E0327402F63C1E9D523863469C3EA71495D6DF.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6069-5B5F2D5DAA4934FC703E380DB9E0327402F63C1E9D523863469C3EA71495D6DF.apk 
+Soot started on Sat Apr 22 05:28:00 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.AdSize is a phantom class!
+Warning: com.google.ads.mediation.MediationAdRequest is a phantom class!
+Warning: com.google.ads.mediation.MediationBannerAdapter is a phantom class!
+Warning: com.google.ads.mediation.MediationBannerListener is a phantom class!
+Warning: com.google.ads.mediation.MediationInterstitialAdapter is a phantom class!
+Warning: com.google.ads.mediation.MediationInterstitialListener is a phantom class!
+Warning: com.google.ads.mediation.MediationServerParameters$Parameter is a phantom class!
+Warning: com.google.ads.mediation.MediationServerParameters is a phantom class!
+Warning: com.google.ads.mediation.NetworkExtras is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 303 methods; 303 nodes; 336 edges.
+feature-vector-key = malicious-app-6069-5B5F2D5DAA4934FC703E380DB9E0327402F63C1E9D523863469C3EA71495D6DF.apk
+Result for malicious-app-6069-5B5F2D5DAA4934FC703E380DB9E0327402F63C1E9D523863469C3EA71495D6DF.apkcom.balloonisland.hbtatxlz

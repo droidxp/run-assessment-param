@@ -1,0 +1,135 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6129-732EF03C67B24FB8C60D6A1EAFB229453C02C6DB8A35BEF29A7C2CCEF0817114.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6129-732EF03C67B24FB8C60D6A1EAFB229453C02C6DB8A35BEF29A7C2CCEF0817114.apk 
+Soot started on Sun Apr 23 09:25:24 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.adknowledge.superrewards.SuperRewards is a phantom class!
+Warning: com.adknowledge.superrewards.SuperRewardsImpl is a phantom class!
+Warning: com.adknowledge.superrewards.model.SRUserPoints is a phantom class!
+Warning: com.adknowledge.superrewards.tracking.SRAppInstallTracker is a phantom class!
+Warning: com.inmobi.androidsdk.impl.InMobiAdView is a phantom class!
+Warning: com.inmobi.androidsdk.InMobiAdDelegate is a phantom class!
+Warning: com.inmobi.androidsdk.EducationType is a phantom class!
+Warning: com.inmobi.androidsdk.EthnicityType is a phantom class!
+Warning: com.inmobi.androidsdk.GenderType is a phantom class!
+Warning: com.papaya.social.PPYSocial$Config is a phantom class!
+Warning: com.papaya.achievement.PPYAchievementDelegate is a phantom class!
+Warning: com.papaya.achievement.PPYAchievement is a phantom class!
+Warning: com.google.api.client.escape.PercentEscaper is a phantom class!
+Warning: com.papaya.social.PPYSocial is a phantom class!
+Warning: com.zong.android.engine.activities.ZongPaymentRequest is a phantom class!
+Warning: com.zong.android.engine.web.ZongWebView is a phantom class!
+Warning: com.zong.android.engine.xml.pojo.lookup.ZongPricePoint is a phantom class!
+Warning: com.zong.android.engine.xml.pojo.lookup.ZongPricePointItem is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1824
+[GatorHierarchy] [32mVERBOSE[0m [App: 662, Lib : 1141, Phantom: 21]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 9, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 2, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682234727046
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682234733603
+[Instantiated app classes] [32mVERBOSE[0m total number: 613
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CoronaApplication added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class android.opengl.derived.SwapGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.opengl.derived.SwapGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class android.opengl.derived.SwapGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class android.opengl.derived.SwapGLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openAssetFile in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class com.ansca.corona.FileContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.loopj.android.http.AsyncHttpResponseHandler added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.IntroFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class zongfuscated.c added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class zongfuscated.c added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.openfeint.internal.ui.PadLogoImageView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CameraActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.ansca.corona.CameraActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.loopj.android.http.AsyncHttpResponseHandler added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NativeBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setRequestedOrientation in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ansca.corona.CoronaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :getCookies in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :clearExpired in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :addCookie in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :clear in Class com.loopj.android.http.PersistentCookieStore added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class android.opengl.derived.SwapGLSurfaceView$BaseConfigChooser added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.opengl.derived.SwapGLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class android.opengl.derived.SwapGLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class android.opengl.derived.SwapGLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class android.opengl.derived.SwapGLSurfaceView
+Result for malicious-app-6129-732EF03C67B24FB8C60D6A1EAFB229453C02C6DB8A35BEF29A7C2CCEF0817114.apkcom.sapho.games.maddentistyl

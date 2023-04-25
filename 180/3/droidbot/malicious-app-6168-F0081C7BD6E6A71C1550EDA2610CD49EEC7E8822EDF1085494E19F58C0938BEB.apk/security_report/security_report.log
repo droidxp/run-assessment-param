@@ -1,0 +1,138 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6168-F0081C7BD6E6A71C1550EDA2610CD49EEC7E8822EDF1085494E19F58C0938BEB.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6168-F0081C7BD6E6A71C1550EDA2610CD49EEC7E8822EDF1085494E19F58C0938BEB.apk 
+Soot started on Mon Apr 24 18:08:01 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1581
+[GatorHierarchy] [32mVERBOSE[0m [App: 610, Lib : 968, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 20
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 5, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682352483044
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u2#303 = $u34#29[$u2#302]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type (narr range): int
+array element type: (filled narr)int
+second round from stmt: $u1#2 = $u1#1[$u3]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682352497958
+[Instantiated app classes] [32mVERBOSE[0m total number: 517
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fox.fish.mpfx.DiaoyuActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.fox.fish.mpfx.DiaoyuActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.fox.fish.mpfx.DiaoyuActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.fox.fish.mpfx.CostRecieve added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fox.fish.mpfx.foxMain added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class org.loon.framework.android.game.LGameAndroid2DActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dismiss in Class mm.sms.purchasesdk.ui.b added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 54 methods; 54 nodes; 44 edges.
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onConfigurationChanged(android.content.res.Configuration)
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onCreateOptionsMenu(android.view.Menu)
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onOptionsItemSelected(android.view.MenuItem)
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onOptionsMenuClosed(android.view.Menu)
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: org.loon.framework.android.game.LGameAndroid2DActivity, subsig: boolean onTrackballEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class org.loon.framework.android.game.LGameAndroid2DActivity
+Result for malicious-app-6168-F0081C7BD6E6A71C1550EDA2610CD49EEC7E8822EDF1085494E19F58C0938BEB.apkcom.fox.fish.mpfx

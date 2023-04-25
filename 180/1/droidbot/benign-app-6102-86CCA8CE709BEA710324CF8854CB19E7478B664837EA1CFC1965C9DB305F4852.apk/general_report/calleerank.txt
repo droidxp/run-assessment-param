@@ -1,0 +1,10 @@
+0	Unknown
+0	Unknown
+0	UserCode
+1	SDK
+1	SDK
+1	SDK
+1	SDK
+1	SDK
+1	SDK
+1	3rdLib

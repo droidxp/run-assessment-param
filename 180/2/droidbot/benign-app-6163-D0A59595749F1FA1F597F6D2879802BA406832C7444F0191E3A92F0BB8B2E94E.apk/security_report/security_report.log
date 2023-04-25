@@ -1,0 +1,137 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6163-D0A59595749F1FA1F597F6D2879802BA406832C7444F0191E3A92F0BB8B2E94E.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6163-D0A59595749F1FA1F597F6D2879802BA406832C7444F0191E3A92F0BB8B2E94E.apk 
+Soot started on Mon Apr 24 18:06:06 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.ads.Ad is a phantom class!
+Warning: com.google.ads.AdListener is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdSize is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.google.ads.InterstitialAd is a phantom class!
+No main class given. Inferred 'air.com.infofrontline.jmsn.GetVersionCode' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1086
+[GatorHierarchy] [32mVERBOSE[0m [App: 208, Lib : 868, Phantom: 10]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 11, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682352367979
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682352370389
+[Instantiated app classes] [32mVERBOSE[0m total number: 218
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onUserInteraction in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :finishActivityFromChild in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowAttributesChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelView in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onSearchRequested in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDescription in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContextMenuClosed in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onChildTitleChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :finishFromChild in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onUserLeaveHint in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateThumbnail in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onApplyThemeResource in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class air.com.infofrontline.jmsn.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :gatherTransparentRegion in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :performLongClick in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckIsTextEditor in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyPreIme in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateInputConnection in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotionEvent in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.adobe.air.Accelerometer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.adobe.air.Accelerometer added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.adobe.air.AndroidStageText$BackgroundBorderDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.adobe.air.RemoteDebuggerListenerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adobe.air.RemoteDebuggerListenerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.RemoteDebuggerListenerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.adobe.air.AIRService added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 61 methods; 61 nodes; 65 edges.
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.util.Date: long getTime()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.adobe.air.Accelerometer
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.adobe.air.Accelerometer
+Result for benign-app-6163-D0A59595749F1FA1F597F6D2879802BA406832C7444F0191E3A92F0BB8B2E94E.apkair.com.infofrontline.jmsn

@@ -1,0 +1,33 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6214-9EFD7AE717D8645B6CEAF5B03F6558E6601D04E0F7C4A18741CCCC0E5390D972.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6214-9EFD7AE717D8645B6CEAF5B03F6558E6601D04E0F7C4A18741CCCC0E5390D972.apk 
+Soot started on Wed Apr 26 00:25:36 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.cat.tools.test.CatView is a phantom class!
+Warning: com.cat.tools.test1.CatView is a phantom class!
+Warning: com.cat.tools.test2.CatView is a phantom class!
+Warning: com.cat.tools.test3.CatView is a phantom class!
+Warning: com.cat.tools.test.AdListener is a phantom class!
+Warning: com.cat.tools.test.Ad is a phantom class!
+Warning: com.cat.tools.test.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test1.AdListener is a phantom class!
+Warning: com.cat.tools.test1.Ad is a phantom class!
+Warning: com.cat.tools.test1.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test2.AdListener is a phantom class!
+Warning: com.cat.tools.test2.Ad is a phantom class!
+Warning: com.cat.tools.test2.AdRequest$ErrorCode is a phantom class!
+Warning: com.cat.tools.test3.AdListener is a phantom class!
+Warning: com.cat.tools.test3.Ad is a phantom class!
+Warning: com.cat.tools.test3.AdRequest$ErrorCode is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 230 methods; 230 nodes; 303 edges.
+feature-vector-key = benign-app-6214-9EFD7AE717D8645B6CEAF5B03F6558E6601D04E0F7C4A18741CCCC0E5390D972.apk
+Result for benign-app-6214-9EFD7AE717D8645B6CEAF5B03F6558E6601D04E0F7C4A18741CCCC0E5390D972.apkcom.cat.pianocgoe

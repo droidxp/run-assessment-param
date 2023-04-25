@@ -1,0 +1,205 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6136-CCD29EC8ED6BFD8D2EA8C95611501FD59BC1BB05F55DF5B725ECCFC8229DA2C1.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6136-CCD29EC8ED6BFD8D2EA8C95611501FD59BC1BB05F55DF5B725ECCFC8229DA2C1.apk 
+Soot started on Sun Apr 23 09:48:25 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 780
+[GatorHierarchy] [32mVERBOSE[0m [App: 79, Lib : 698, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 9
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682236106793
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682236109060
+[Instantiated app classes] [32mVERBOSE[0m total number: 82
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.BikeDisassemblyxq.BikeDisassembly added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.nobleempire.GunDisassembly2.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.GunDisassembly2 added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onConfigurationChanged(android.content.res.Configuration)
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onNewIntent(android.content.Intent)
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPostCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPostResume()
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onRestart()
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onRestoreInstanceState(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onSaveInstanceState(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onStart()
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onRestart()
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvEventQueueActivity
+Result for malicious-app-6136-CCD29EC8ED6BFD8D2EA8C95611501FD59BC1BB05F55DF5B725ECCFC8229DA2C1.apkcom.nobleempire.BikeDisassemblyxq

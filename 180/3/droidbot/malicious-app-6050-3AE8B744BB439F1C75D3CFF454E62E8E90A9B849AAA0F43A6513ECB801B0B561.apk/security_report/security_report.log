@@ -1,0 +1,261 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/malicious-app-6050-3AE8B744BB439F1C75D3CFF454E62E8E90A9B849AAA0F43A6513ECB801B0B561.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6050-3AE8B744BB439F1C75D3CFF454E62E8E90A9B849AAA0F43A6513ECB801B0B561.apk 
+Soot started on Fri Apr 21 20:10:49 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.aaaaa.api.client.escape.PercentEscaper is a phantom class!
+Warning: com.asd.ddd.listener.AppActivatedListener is a phantom class!
+Warning: com.asd.ddd.DianJinPlatform$Oriention is a phantom class!
+Warning: com.asd.ddd.DianJinPlatform is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1809
+[GatorHierarchy] [32mVERBOSE[0m [App: 730, Lib : 1072, Phantom: 7]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 12, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 6, Lib views: 17
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682100651516
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682100657031
+[Instantiated app classes] [32mVERBOSE[0m total number: 548
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.m.s.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.app.shell.Facade$4 added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.app.shell.Facade$3 added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.IntroFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.app.shell.AppshellActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.app.shell.AppshellActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.app.shell.AppshellActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.openfeint.internal.ui.PadLogoImageView added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceCreated in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onDrawFrame in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceChanged in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceCreated in Class com.wpd.game.popstar.PopStar added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.wpd.game.popstar.PopStar added
+[WARNING] [32mVERBOSE[0m Callback method :onDrawFrame in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wpd.game.popstar.PopStar added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.wpd.game.popstar.PopStar added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceChanged in Class com.badlogic.androidgames.framework.impl.GLGame added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.wpd.game.popstar.PopStar added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NativeBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.badlogic.androidgames.framework.impl.AndroidGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.badlogic.androidgames.framework.impl.AndroidGame added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.badlogic.androidgames.framework.impl.AndroidGame added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 213 methods; 213 nodes; 318 edges.
+maxpossibleFlows=2
+maxpossibleFlows=748
+746 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer clear()> to <java.nio.IntBuffer: java.nio.IntBuffer put(int[],int,int)>
+maxpossibleFlows=272
+maxpossibleFlows=1
+maxpossibleFlows=47
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=272
+maxpossibleFlows=46
+39 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=272
+maxpossibleFlows=47
+maxpossibleFlows=741
+171 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer flip()> to <java.nio.IntBuffer: java.nio.IntBuffer put(int[],int,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=272
+maxpossibleFlows=1
+maxpossibleFlows=47
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=748
+746 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer clear()> to <java.nio.IntBuffer: java.nio.IntBuffer put(int[],int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.nio.Buffer: java.nio.Buffer clear()> to <java.nio.ShortBuffer: java.nio.ShortBuffer put(short[],int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=47
+maxpossibleFlows=47
+maxpossibleFlows=46
+39 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.app.shell.Facade$3
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.app.shell.Facade$4
+Result for malicious-app-6050-3AE8B744BB439F1C75D3CFF454E62E8E90A9B849AAA0F43A6513ECB801B0B561.apkshouyou.xiaomie.zhuap

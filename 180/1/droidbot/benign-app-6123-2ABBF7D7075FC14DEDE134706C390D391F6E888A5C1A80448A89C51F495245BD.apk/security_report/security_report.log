@@ -1,0 +1,241 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/benign-app-6123-2ABBF7D7075FC14DEDE134706C390D391F6E888A5C1A80448A89C51F495245BD.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6123-2ABBF7D7075FC14DEDE134706C390D391F6E888A5C1A80448A89C51F495245BD.apk 
+Soot started on Sun Apr 23 09:24:46 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+Warning: com.umeng.newxp.view.D is a phantom class!
+Warning: com.umeng.newxp.view.d is a phantom class!
+Warning: com.umeng.newxp.view.aI is a phantom class!
+Warning: com.umeng.newxp.view.f is a phantom class!
+Warning: com.umeng.newxp.view.aF is a phantom class!
+Warning: com.umeng.newxp.view.F is a phantom class!
+Warning: com.umeng.newxp.view.G is a phantom class!
+Warning: com.umeng.newxp.view.H is a phantom class!
+Warning: com.umeng.newxp.view.I is a phantom class!
+Warning: com.umeng.newxp.view.J is a phantom class!
+Warning: com.umeng.newxp.view.L is a phantom class!
+Warning: com.umeng.newxp.view.M is a phantom class!
+Warning: com.umeng.newxp.view.N is a phantom class!
+Warning: com.umeng.newxp.view.O is a phantom class!
+Warning: com.umeng.newxp.view.W is a phantom class!
+Warning: com.umeng.newxp.view.Y is a phantom class!
+Warning: com.umeng.newxp.view.Z is a phantom class!
+Warning: com.umeng.newxp.view.a is a phantom class!
+Warning: com.umeng.newxp.view.aK is a phantom class!
+Warning: com.umeng.newxp.view.aN is a phantom class!
+Warning: com.umeng.newxp.view.aa is a phantom class!
+Warning: com.umeng.newxp.view.ac is a phantom class!
+Warning: com.umeng.newxp.view.ae is a phantom class!
+Warning: com.umeng.newxp.view.ai is a phantom class!
+Warning: com.umeng.newxp.view.aj is a phantom class!
+Warning: com.umeng.newxp.view.ak is a phantom class!
+Warning: com.umeng.newxp.view.al is a phantom class!
+Warning: com.umeng.newxp.view.am is a phantom class!
+Warning: com.umeng.newxp.view.an is a phantom class!
+Warning: com.umeng.newxp.view.aw is a phantom class!
+Warning: com.umeng.newxp.view.i is a phantom class!
+Warning: com.umeng.newxp.view.o is a phantom class!
+Warning: com.umeng.newxp.view.r is a phantom class!
+Warning: com.umeng.newxp.view.s is a phantom class!
+Warning: com.umeng.newxp.view.t is a phantom class!
+Warning: com.umeng.newxp.view.w is a phantom class!
+No main class given. Inferred 'air.top.free.fun.game.Rucb.GetVersionCode' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1818
+[GatorHierarchy] [32mVERBOSE[0m [App: 670, Lib : 1109, Phantom: 39]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 24, Lib views: 29
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682234690011
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682234705214
+[Instantiated app classes] [32mVERBOSE[0m total number: 582
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onUserInteraction in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :finishActivityFromChild in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowAttributesChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelView in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onSearchRequested in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDescription in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContextMenuClosed in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onChildTitleChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :finishFromChild in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyMultiple in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onUserLeaveHint in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateThumbnail in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchGenericMotionEvent in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onApplyThemeResource in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class air.top.free.fun.game.Rucb.AppEntry added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.adobe.air.Accelerometer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.adobe.air.Accelerometer added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.adobe.air.AndroidStageText$BackgroundBorderDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.ay added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.ay added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.ay added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.umeng.newxp.view.az added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTouchListener in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.umeng.newxp.view.widget.SwipeViewPointer added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.umeng.newxp.view.w$a added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.umeng.newxp.view.w$a added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.aF$a added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.aF$a added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.aF$a added
+[WARNING] [32mVERBOSE[0m Callback method :gatherTransparentRegion in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :performLongClick in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckIsTextEditor in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyPreIme in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateInputConnection in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onGenericMotionEvent in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRWindowThreadedSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.adobe.air.AIRWindowSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.AdobeAIR added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.adobe.air.AdobeAIR added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.umeng.newxp.UBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.umeng.newxp.view.aF$b added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.umeng.newxp.view.aF$b added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.umeng.newxp.view.aF$b added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.umeng.newxp.view.aF$b added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.f$a added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.f$a added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.f$a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.AIRUpdateDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.umeng.fb.ui.SendFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.fb.ui.SendFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.umeng.fb.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.umeng.fb.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.umeng.fb.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.fb.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.fb.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.adobe.air.AIRService added
+[WARNING] [32mVERBOSE[0m Callback method :initialize in Class com.umeng.newxp.common.f added
+[WARNING] [32mVERBOSE[0m Callback method :applyTransformation in Class com.umeng.newxp.common.f added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRStage3DSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.umeng.fb.ui.ThreadView added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.umeng.fb.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.adobe.air.RemoteDebuggerListenerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adobe.air.RemoteDebuggerListenerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adobe.air.RemoteDebuggerListenerDialog added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 12 methods; 12 nodes; 8 edges.
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.adobe.air.AIRStage3DSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.adobe.air.Accelerometer
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.adobe.air.Accelerometer
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.aF$a
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.aF$a
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.aF$a
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.ay
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.ay
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.ay
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.umeng.newxp.view.az
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.umeng.newxp.view.f$a
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.umeng.newxp.view.f$a
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.umeng.newxp.view.f$a
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.umeng.newxp.view.w$a
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.umeng.newxp.view.w$a
+Result for benign-app-6123-2ABBF7D7075FC14DEDE134706C390D391F6E888A5C1A80448A89C51F495245BD.apkair.top.free.fun.game.Rucb

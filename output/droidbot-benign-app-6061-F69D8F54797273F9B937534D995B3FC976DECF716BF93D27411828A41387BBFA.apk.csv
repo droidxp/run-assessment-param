@@ -1,0 +1,11 @@
+<android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>;"{(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030001 needsMenuKey
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.secret","OlvipsU0NRMoRGvF9q9p6uTHPx5w2HkrkINVTlbXty8vtVJQRDtz6Q=="
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.id","ba104db4-32fc-4197-8ffa-3e15d4bb4422"
+<java.io.OutputStream: void write(byte[])>;"[B@88e24f"
+; fl=LAYOUT_IN_SCREEN LAYOUT_NO_LIMITS FULLSCREEN LAYOUT_INSET_DECOR}""","l=LAYOUT_IN_SCREEN LAYOUT_NO_LIMITS FULLSCREEN LAYOUT_INSET_DECOR}"""
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>;"scoreloop.properties"
+<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>;"game.version","1.0"
+<java.io.OutputStream: void write(byte[])>;"[B@6b0a3d5"
+<android.view.View: void setFocusable(boolean)>;"0"
+;<java.io.OutputStream: void write(byte[])>;"[B@c8c1263"
+<java.net.URL: void <init>;ava.lang.String)>","https://api.scoreloop.com/bayeux"

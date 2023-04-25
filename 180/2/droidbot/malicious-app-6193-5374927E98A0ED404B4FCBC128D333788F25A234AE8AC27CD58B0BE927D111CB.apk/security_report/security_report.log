@@ -1,0 +1,38 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/2/droidbot/malicious-app-6193-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6193-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apk 
+Soot started on Tue Apr 25 05:14:54 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.wiyun.game.WiGame is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 645
+[GatorHierarchy] [32mVERBOSE[0m [App: 43, Lib : 598, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 5
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682392495249
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682392495910
+[Instantiated app classes] [32mVERBOSE[0m total number: 31
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.About added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.WhackAMole added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.nwhy.Whackczkm.WhackAMole added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.nwhy.Whackczkm.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.Splash added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+Result for malicious-app-6193-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apkorg.nwhy.Whackczkm

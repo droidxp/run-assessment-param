@@ -1,0 +1,154 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/3/droidbot/benign-app-6114-2E3E3A3BDE2D28A5F04B44035F9BDA06F9CCA03B70D0A0CAD2DE09E14C1156B9.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/benign-app-6114-2E3E3A3BDE2D28A5F04B44035F9BDA06F9CCA03B70D0A0CAD2DE09E14C1156B9.apk 
+Soot started on Sun Apr 23 05:40:24 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1537
+[GatorHierarchy] [32mVERBOSE[0m [App: 465, Lib : 1069, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 17
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682221226295
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682221231993
+[Instantiated app classes] [32mVERBOSE[0m total number: 414
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.player.a.c$a added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.unity3d.player.a.c$a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateEngine in Class com.unity3d.player.e added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NativeBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.unity3d.player.a.d$a added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.unity3d.player.e$a$a added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceDestroyed in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceCreated in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onVisibilityChanged in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onSurfaceChanged in Class com.unity3d.player.e$a added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.IntroFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateEngine in Class com.unity3d.player.UnityWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityWallpaperService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :chooseConfig in Class com.unity3d.player.e$a$a added
+[WARNING] [32mVERBOSE[0m Callback method :isPlaying in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getBufferPercentage in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :pause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canSeekBackward in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getDuration in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :getCurrentPosition in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :start in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canPause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :canSeekForward in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :seekTo in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.unity3d.player.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.UnityPlayerNativeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.unity3d.player.d added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 24 methods; 24 nodes; 28 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canPause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canSeekBackward in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :canSeekForward in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getBufferPercentage in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getCurrentPosition in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :getDuration in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :isPlaying in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onBufferingUpdate in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :onVideoSizeChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :pause in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :seekTo in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :start in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.unity3d.player.VideoPlayer
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.unity3d.player.VideoPlayer
+Result for benign-app-6114-2E3E3A3BDE2D28A5F04B44035F9BDA06F9CCA03B70D0A0CAD2DE09E14C1156B9.apkcom.galapagossoft.trialgccso

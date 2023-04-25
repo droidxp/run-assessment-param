@@ -1,0 +1,8 @@
+"<android.app.Activity: void setContentView(int)>","2130903043"
+"<android.view.View: void setBackgroundResource(int)>","2130837529"
+"<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>","com.Ina.Nslp.SmipleNotePad@3cf16e1","class com.Ina.Nslp.NoteText"
+"<android.app.Activity: void startActivityForResult(android.content.Intent,int)>","Intent { cmp=com.Ina.Nslp/.NoteText (has extras) }","0"
+"<android.app.Activity: void setContentView(int)>","2130903050"
+"<android.widget.TextView: void setText(int)>","2131165223"
+"<android.view.View: void setVisibility(int)>","0"
+"<android.widget.TextView: void setText(int)>","2131165210"

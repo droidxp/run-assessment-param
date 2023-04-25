@@ -1,0 +1,3 @@
+"<android.app.Activity: void setContentView(int)>","2130903043"
+"<android.view.View: void setVisibility(int)>","4"
+"<android.app.Activity: void startActivity(android.content.Intent)>","Intent { cmp=blink.game.ficb/.Preferences }"

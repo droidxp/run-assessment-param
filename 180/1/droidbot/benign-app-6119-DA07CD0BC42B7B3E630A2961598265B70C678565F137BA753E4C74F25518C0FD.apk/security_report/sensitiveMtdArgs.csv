@@ -1,0 +1,6 @@
+"<android.content.res.Resources: java.io.InputStream openRawResource(int)>","2130837643"
+"<android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>","android.content.res.AssetManager$AssetInputStream@5dab3f3","Rect(0, 0 - 0, 0)","android.graphics.BitmapFactory$Options@1e4d8b0"
+"<android.content.res.Resources: java.io.InputStream openRawResource(int)>","2130837645"
+"<android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>","android.content.res.AssetManager$AssetInputStream@961329","Rect(0, 0 - 0, 0)","android.graphics.BitmapFactory$Options@472d6ae"
+"<android.content.res.Resources: java.io.InputStream openRawResource(int)>","2130837633"
+"<android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>","android.content.res.AssetManager$AssetInputStream@ae29c4f","Rect(0, 0 - 0, 0)","android.graphics.BitmapFactory$Options@236cfdc"

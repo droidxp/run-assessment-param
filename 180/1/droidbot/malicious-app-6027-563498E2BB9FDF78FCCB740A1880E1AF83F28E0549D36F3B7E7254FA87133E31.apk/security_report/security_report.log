@@ -1,0 +1,710 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/TU_Darmstadt/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/TU_Darmstadt/benchmark/trace/180/1/droidbot/malicious-app-6027-563498E2BB9FDF78FCCB740A1880E1AF83F28E0549D36F3B7E7254FA87133E31.apk.logcat -process-dir /home/handrick/Documents/TU_Darmstadt/benchmark/data/input/malicious-app-6027-563498E2BB9FDF78FCCB740A1880E1AF83F28E0549D36F3B7E7254FA87133E31.apk 
+Soot started on Fri Apr 21 06:03:26 CEST 2023
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.sharesdk.R$drawable is a phantom class!
+Warning: cn.sharesdk.R$string is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2129
+[GatorHierarchy] [32mVERBOSE[0m [App: 1012, Lib : 1112, Phantom: 5]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 16, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 19, Lib views: 25
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 7, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1682049809157
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1682049819935
+[Instantiated app classes] [32mVERBOSE[0m total number: 707
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getRotation in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setScaleType in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageMatrix in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageResource in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageBitmap in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageDrawable in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.newxp.view.aN added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.sina.sso.RemoteSSO$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.sina.sso.RemoteSSO$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.DialogGiftSubmitActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.SettingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.DialogOpenCategoryActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.umeng.newxp.UBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :getRotation in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setScaleType in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageMatrix in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class it.sephiroth.android.library.imagezoom.ImageViewTouch added
+[WARNING] [32mVERBOSE[0m Callback method :setImageResource in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageBitmap in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setImageDrawable in Class it.sephiroth.android.library.imagezoom.ImageViewTouchBase added
+[WARNING] [32mVERBOSE[0m Callback method :setOnItemLongClickListener in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :setAdapter in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnItemClickListener in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :getSelectedView in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :getAdapter in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :setSelection in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnItemSelectedListener in Class com.yipinapp.gm.view.HorizontalListView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.yipinapp.gm.view.CategoryNumTextView added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class cn.sharesdk.wechat.utils.WechatHandlerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.sharesdk.wechat.utils.WechatHandlerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.DialogGiftActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yipinapp.gm.activity.DialogGiftActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.GuessActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class android.infrastructure.NotificationService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.infrastructure.NotificationService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class android.infrastructure.NotificationService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :isFocused in Class com.umeng.newxp.view.aB added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTouchListener in Class com.umeng.newxp.view.widget.SwipeView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.umeng.newxp.view.widget.SwipeViewPointer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.WelcomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class cn.sharesdk.wechat.utils.WechatHandlerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.sharesdk.wechat.utils.WechatHandlerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onUnhandledKeyEvent in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideUrlLoading in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onFormResubmission in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideKeyEvent in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedHttpAuthRequest in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedError in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :doUpdateVisitedHistory in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onLoadResource in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onScaleChanged in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onTooManyRedirects in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedSslError in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yipinapp.gm.activity.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.app.GuessSportsApp added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.umeng.newxp.view.a added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.sharesdk.framework.ShareSDKUIShell added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class it.sephiroth.android.library.imagezoom.ImageViewTouchViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.umeng.newxp.view.UGallery added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.yipinapp.gm.adapter.HorizontalGridAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.yipinapp.gm.adapter.HorizontalGridAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.yipinapp.gm.adapter.HorizontalGridAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.yipinapp.gm.adapter.HorizontalGridAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.WebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.HorizontalGridActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yipinapp.gm.activity.HorizontalGridActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class cn.sharesdk.framework.authorize.ResizeLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yipinapp.gm.activity.ImageActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onUnhandledKeyEvent in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideUrlLoading in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onFormResubmission in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideKeyEvent in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedHttpAuthRequest in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedError in Class cn.sharesdk.framework.authorize.b added
+[WARNING] [32mVERBOSE[0m Callback method :doUpdateVisitedHistory in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onLoadResource in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onScaleChanged in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onTooManyRedirects in Class cn.sharesdk.framework.authorize.e added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedSslError in Class cn.sharesdk.framework.authorize.b added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 706 methods; 706 nodes; 970 edges.
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.support.v4.view.ViewConfigurationCompat: int getScaledPagingTouchSlop(android.view.ViewConfiguration)> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=105
+105 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ViewConfiguration: int getScaledMinimumFlingVelocity()> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.support.v4.view.ViewCompat: int getImportantForAccessibility(android.view.View)> to <android.support.v4.view.ViewCompat: void setImportantForAccessibility(android.view.View,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ViewConfiguration: android.view.ViewConfiguration get(android.content.Context)> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ViewConfiguration: int getScaledMaximumFlingVelocity()> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.ArrayList: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=105
+105 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.support.v4.view.ViewConfigurationCompat: int getScaledPagingTouchSlop(android.view.ViewConfiguration)> to <android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.support.v4.view.ViewConfigurationCompat: int getScaledPagingTouchSlop(android.view.ViewConfiguration)> to <android.support.v4.view.ViewCompat: void setImportantForAccessibility(android.view.View,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.apache.http.message.AbstractHttpMessage: void setHeader(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=105
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+Result for malicious-app-6027-563498E2BB9FDF78FCCB740A1880E1AF83F28E0549D36F3B7E7254FA87133E31.apkcom.yipinapp.gm
