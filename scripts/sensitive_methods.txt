@@ -263,3 +263,4 @@
 <android.util.Log: int e(java.lang.String,java.lang.String)>
 <android.media.MediaPlayer: void setDataSource(android.content.Context,android.net.Uri)>
 <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+<org.apache.http.message.AbstractHttpMessage: void setHeader(java.lang.String,java.lang.String)>

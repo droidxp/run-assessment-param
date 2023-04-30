@@ -5,6 +5,7 @@
    for a given app. 
 """
 import os
+import csv
 
 tools = ['droidbot']
 executions = [1,2,3]
@@ -36,14 +37,14 @@ for root, dirs, files in os.walk('..'):
             methods_param = mapping.get((tool, apk), set())
 
             with open(relative_path) as fh:
-                lines = fh.readlines()
+                lines = csv.reader(fh)
 
                 for line in lines:
-                    method = line[line.find('<'):line.find('>')+1]
-
-                    param = line[line.find('>')+3:]
+                    method = line[0]
+                    params = ['"' + x.replace('"', '""') + '"' for x in line[1:]]
+                    params = ','.join(params)
                     
-                    method_param = method+";"+param
+                    method_param = '"' + method + '",' + params + '\n'
                     
                     methods_param.add(method_param)
 
