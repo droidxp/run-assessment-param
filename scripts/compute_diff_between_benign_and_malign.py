@@ -1,8 +1,11 @@
-from os import listdir
+from os import listdir, makedirs
 from os.path import isfile, join
+import csv
 
 src_dir   = "../output"
 diffs_dir = f"{src_dir}/diffs"
+
+makedirs(diffs_dir, exist_ok = True)
 
 tools = ['droidbot']
 
@@ -10,9 +13,6 @@ files = [f for f in listdir(src_dir) if isfile(join(src_dir, f)) and f.endswith(
 
 benign_apps    = {}
 malicious_apps = {}
-
-benign_apps_param    = {}
-malicious_apps_param = {}
 
 print(f"[Info] Processing files in {src_dir}")
 print(f"[Info] Number of files: {len(files)}")  
@@ -41,57 +41,51 @@ for f in files:
         continue
 
     with open(join(src_dir, f)) as fh:
-        lines = fh.readlines()
+        lines = csv.reader(fh)
 
-        methods = set()
-        params  = set()
-        
+        methods = {}
+
         for line in lines:
-            method = line.replace('\n', '')
-            method = line[line.find('<'):line.find('>')+1]
-            param = line[line.find(';')+1:]
-            if method in sensitive_methods:  
-                methods.add(method)
-                #if (param.find('X-ADMOB-ISU') != -1):
-                params.add(param)
-                #if (param.find('AdMobSDK') != -1):
-                #    params.add(param)
-                
+            method = line[0]
+            parsed_args = [x for x in line[1:]]
+            args = ';'.join(parsed_args)
 
+            if method in sensitive_methods:
+                if method not in methods:
+                    methods[method] = set()
+
+                methods[method].add(args)
+                
     if classification == 'benign':
         benign_apps[(tool, apk)] = methods
-        benign_apps_param[(tool, apk)] = params
     elif classification == 'malicious':
         malicious_apps[(tool, apk)] = methods
-        malicious_apps_param[(tool, apk)] = params
     else:
         continue
 
 summary = {} 
 
-for (tool, apk), bMethods in benign_apps.items():
-    for (tool, apk), mMethods in malicious_apps.items():
-    
-        if bMethods == mMethods:
+for (tool, apk) in benign_apps.keys() & malicious_apps.keys():
+    file_name = f"{diffs_dir}/{tool}-diff-{apk}.csv"
+    summary[(tool, apk)] = 0
+
+    with open(file_name, 'w') as fh:
+        for method in benign_apps[(tool, apk)].keys() & malicious_apps[(tool, apk)].keys():
+            pdMethods = malicious_apps[(tool, apk)][method].difference(benign_apps[(tool, apk)][method])
+
+            summary[(tool, apk)] += len(pdMethods)
             
-            mMethods = malicious_apps.get((tool, apk), set())
-            
-            pmMethods = malicious_apps_param.get((tool, apk), set())
-            pbMethods = benign_apps_param.get((tool, apk), set())
-            
-            pdMethods = pmMethods.difference(pbMethods)
-            summary[(tool, apk)] = len(pdMethods)
-            file_name = f"{diffs_dir}/{tool}-diff-{apk}.csv"
-            
-            with open(file_name, 'w') as fh:
-                fh.writelines(pdMethods)
-               
-            summary_file = f"{diffs_dir}/summary.csv"
-            with open(summary_file, 'w') as fh:
-                fh.write("tool,apk,param_methods_in_diff\n")
-                for ((tool, apk), ms) in summary.items():
-                    fh.write(f"{tool},{apk},{ms}\n")
+            for args in pdMethods:
+                fh.write(method + ";" + args + "\n")
+            fh.write("\n")
+
+    print(summary)
                 
+    summary_file = f"{diffs_dir}/summary.csv"
+    with open(summary_file, 'w') as fh:
+        fh.write("tool,apk,param_methods_in_diff\n")
+        for ((tool, apk), ms) in summary.items():
+            fh.write(f"{tool},{apk},{ms}\n")
             
 print(f"[Info] Results exported to {diffs_dir}")
 
